@@ -1,0 +1,56 @@
+import "poly_1.lt"
+import "poly_2.lt"
+import "poly_3.lt"
+import "poly_4.lt"
+import "poly_5.lt"
+import "poly_6.lt"
+import "poly_7.lt"
+import "poly_8.lt"
+import "poly_9.lt"
+import "poly_10.lt"
+import "poly_11.lt"
+import "poly_12.lt"
+import "poly_13.lt"
+import "poly_14.lt"
+import "poly_15.lt"
+import "poly_16.lt"
+import "poly_17.lt"
+import "poly_18.lt"
+import "poly_19.lt"
+import "poly_20.lt"
+import "poly_21.lt"
+import "poly_22.lt"
+import "poly_23.lt"
+import "poly_24.lt"
+
+polymer_1 = new poly_1.move(-50,0,0)
+polymer_2 = new poly_2.move(-50,25,0)
+polymer_3 = new poly_3.move(-50,50,0)
+polymer_4 = new poly_4.move(-50,75,0)
+polymer_5 = new poly_5.move(-50,-0,-20)
+polymer_6 = new poly_6.move(-50,-25,-20)
+polymer_7 = new poly_7.move(-50,-50,-20)
+polymer_8 = new poly_8.move(-50,-75,-20)
+polymer_9 = new poly_9.move(-50,0,40)
+polymer_10 = new poly_10.move(-50,25,40)
+polymer_11 = new poly_11.move(-50,50,40)
+polymer_12 = new poly_12.move(-50,75,40)
+polymer_13 = new poly_13.move(-50,-0,-60)
+polymer_14 = new poly_14.move(-50,-25,-60)
+polymer_15 = new poly_15.move(-50,-50,-60)
+polymer_16 = new poly_16.move(-50,-75,-60)
+polymer_17 = new poly_17.move(-50,0,80)
+polymer_18 = new poly_18.move(-50,25,80)
+polymer_19 = new poly_19.move(-50,50,80)
+polymer_20 = new poly_20.move(-50,75,80)
+polymer_21 = new poly_21.move(-50,-0,-100)
+polymer_22 = new poly_22.move(-50,-25,-100)
+polymer_23 = new poly_23.move(-50,-50,-100)
+polymer_24 = new poly_24.move(-50,-75,-100)
+
+write_once("Data Boundary") {
+   -150  150  xlo xhi
+   -150  150  ylo yhi
+   -150  150  zlo zhi
+}
+

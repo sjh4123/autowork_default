@@ -1,0 +1,53 @@
+Start       2017-09-14.12:47:08
+Final_Write 2017-09-14.12:47:14
+
+tau_alpha Cutoffs (timeUnit: fs)
+------------------------------------------
+Regime_0  1
+------------------------------------------
+Current_Regime 
+1 of 1
+
+<Compute Nodes Info>
+Compute_1: 10 
+
+System Unit:    real
+Quench Rate:    1000 units
+Equilibration:  100 100 10 10 10 10 tau_alpha(s)
+Production:     100 100 10 10 10 10 block(s)
+
+Time Elapsed up to Current Regime         
+------------------------------------------
+Regime_0  0 seconds
+
+Tg_extrp(trials) avg(Tg) stdev(Tg) stdev/avg 
+---------------------------------------------
+Regime_0  0 0 nan nan
+
+m_extrp(trials) avg(m) stdev(m) stdev/avg    
+---------------------------------------------
+Regime_0  0 0 nan nan
+
+Tg_compu(trials) avg(Tg) stdev(Tg) stdev/avg 
+---------------------------------------------
+Regime_0  0 0 nan nan
+
+m_compu(trials) avg(m) stdev(m) stdev/avg    
+---------------------------------------------
+Regime_0  0 0 nan nan
+
+Tg_VFT(trials) avg(Tg) stdev(Tg) stdev/avg   
+---------------------------------------------
+Regime_0  0 0 nan nan
+
+m_VFT(trials) avg(m) stdev(m) stdev/avg      
+---------------------------------------------
+Regime_0  0 0 nan nan
+
+Tg_COOP(trials) avg(Tg) stdev(Tg) stdev/avg   
+---------------------------------------------
+Regime_0  0 0 nan nan
+
+m_COOP(trials) avg(m) stdev(m) stdev/avg      
+---------------------------------------------
+Regime_0  0 0 nan nan

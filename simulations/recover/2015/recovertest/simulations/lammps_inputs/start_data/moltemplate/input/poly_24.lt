@@ -1,0 +1,74 @@
+import "oplsaa.lt"
+import "M031le.lt"
+import "M013i.lt"
+import "M031i.lt"
+import "M031re.lt"
+
+poly_24 inherits OPLSAA {
+
+    create_var {$mol}
+
+    monomer[0] = new M031le
+    monomer[1] = new M013i.rot(180,1,0,0).move(4,0,0)
+    monomer[2] = new M031i.rot(180,1,0,0).move(8,0,0)
+    monomer[3] = new M013i.rot(180,1,0,0).move(12,0,0)
+    monomer[4] = new M013i.rot(180,1,0,0).move(16,0,0)
+    monomer[5] = new M031i.rot(180,1,0,0).move(20,0,0)
+    monomer[6] = new M031i.rot(180,1,0,0).move(24,0,0)
+    monomer[7] = new M031i.rot(180,1,0,0).move(28,0,0)
+    monomer[8] = new M031i.rot(180,1,0,0).move(32,0,0)
+    monomer[9] = new M031i.rot(180,1,0,0).move(36,0,0)
+    monomer[10] = new M031i.rot(180,1,0,0).move(40,0,0)
+    monomer[11] = new M031i.rot(180,1,0,0).move(44,0,0)
+    monomer[12] = new M031i.rot(180,1,0,0).move(48,0,0)
+    monomer[13] = new M031i.rot(180,1,0,0).move(52,0,0)
+    monomer[14] = new M031i.rot(180,1,0,0).move(56,0,0)
+    monomer[15] = new M013i.rot(180,1,0,0).move(60,0,0)
+    monomer[16] = new M013i.rot(180,1,0,0).move(64,0,0)
+    monomer[17] = new M013i.rot(180,1,0,0).move(68,0,0)
+    monomer[18] = new M031i.rot(180,1,0,0).move(72,0,0)
+    monomer[19] = new M031i.rot(180,1,0,0).move(76,0,0)
+    monomer[20] = new M031i.rot(180,1,0,0).move(80,0,0)
+    monomer[21] = new M031i.rot(180,1,0,0).move(84,0,0)
+    monomer[22] = new M031i.rot(180,1,0,0).move(88,0,0)
+    monomer[23] = new M031i.rot(180,1,0,0).move(92,0,0)
+    monomer[24] = new M031i.rot(180,1,0,0).move(96,0,0)
+    monomer[25] = new M031i.rot(180,1,0,0).move(100,0,0)
+    monomer[26] = new M031i.rot(180,1,0,0).move(104,0,0)
+    monomer[27] = new M031i.rot(180,1,0,0).move(108,0,0)
+    monomer[28] = new M013i.rot(180,1,0,0).move(112,0,0)
+    monomer[29] = new M031re.rot(180,1,0,0).move(116,0,0)
+
+    write('Data Bond List') {
+      $bond:b1  $atom:monomer[0]/C2  $atom:monomer[1]/C1  
+      $bond:b2  $atom:monomer[1]/C2  $atom:monomer[2]/C1  
+      $bond:b3  $atom:monomer[2]/C2  $atom:monomer[3]/C1  
+      $bond:b4  $atom:monomer[3]/C2  $atom:monomer[4]/C1  
+      $bond:b5  $atom:monomer[4]/C2  $atom:monomer[5]/C1  
+      $bond:b6  $atom:monomer[5]/C2  $atom:monomer[6]/C1  
+      $bond:b7  $atom:monomer[6]/C2  $atom:monomer[7]/C1  
+      $bond:b8  $atom:monomer[7]/C2  $atom:monomer[8]/C1  
+      $bond:b9  $atom:monomer[8]/C2  $atom:monomer[9]/C1  
+      $bond:b10  $atom:monomer[9]/C2  $atom:monomer[10]/C1  
+      $bond:b11  $atom:monomer[10]/C2  $atom:monomer[11]/C1  
+      $bond:b12  $atom:monomer[11]/C2  $atom:monomer[12]/C1  
+      $bond:b13  $atom:monomer[12]/C2  $atom:monomer[13]/C1  
+      $bond:b14  $atom:monomer[13]/C2  $atom:monomer[14]/C1  
+      $bond:b15  $atom:monomer[14]/C2  $atom:monomer[15]/C1  
+      $bond:b16  $atom:monomer[15]/C2  $atom:monomer[16]/C1  
+      $bond:b17  $atom:monomer[16]/C2  $atom:monomer[17]/C1  
+      $bond:b18  $atom:monomer[17]/C2  $atom:monomer[18]/C1  
+      $bond:b19  $atom:monomer[18]/C2  $atom:monomer[19]/C1  
+      $bond:b20  $atom:monomer[19]/C2  $atom:monomer[20]/C1  
+      $bond:b21  $atom:monomer[20]/C2  $atom:monomer[21]/C1  
+      $bond:b22  $atom:monomer[21]/C2  $atom:monomer[22]/C1  
+      $bond:b23  $atom:monomer[22]/C2  $atom:monomer[23]/C1  
+      $bond:b24  $atom:monomer[23]/C2  $atom:monomer[24]/C1  
+      $bond:b25  $atom:monomer[24]/C2  $atom:monomer[25]/C1  
+      $bond:b26  $atom:monomer[25]/C2  $atom:monomer[26]/C1  
+      $bond:b27  $atom:monomer[26]/C2  $atom:monomer[27]/C1  
+      $bond:b28  $atom:monomer[27]/C2  $atom:monomer[28]/C1  
+      $bond:b29  $atom:monomer[28]/C2  $atom:monomer[29]/C1  
+    }
+
+} # poly_24

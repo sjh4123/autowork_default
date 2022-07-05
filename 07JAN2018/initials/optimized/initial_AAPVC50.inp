@@ -1,0 +1,150 @@
+##------------------------------------------------------------------------------
+## SYSTEM CONFIGURATION
+##------------------------------------------------------------------------------
+typeB 0
+typeS 0
+
+## NOTE:
+##-----------------------------------------
+## Please choose (typeB,typeS) from below:
+## (0,0): real- or metal-unit systems
+## (0,5): LJ-unit polymers
+## (5,6): LJ-unit small molecules
+##-----------------------------------------
+
+#computeCluster Mycroft
+computeCluster archive
+
+userName      jh148
+masterFolder  AUTOWORK
+
+simType       AA
+year          2016
+usicID        PVC50
+#nameString   testSpecies3
+
+n_trial 2
+
+## NOTE: naming convention
+##-----------------------------------------
+## usic = simType + usicID
+## ${usic}_${trl}_${namestring}_T${Temp}
+##-----------------------------------------
+
+systemUnit real
+startTemp  1500.0
+crossTemp  1300.0
+hTres      50.0
+lTres      25.0
+
+n_equ_blocks 10
+n_prd_blocks 10
+
+logtau_targets 3.5 4.0 4.5 5.0 5.5 6.0
+n_regime_temps 8 8 8 8 4 4
+ts_regime      3 3 3 3 3 3
+
+regime_beg  0
+regime_end  5
+
+
+##------------------------------------------------------------------------------
+## CUSTOM COMMANDS
+## ACTIVE KEYWORDS: make,set,run,define,next,print,show
+## STOP COMMAMD:    exit
+##------------------------------------------------------------------------------
+#make filesystem
+#make scripts prepared
+#make lmpdata moltemplate
+
+set tinfo initialize
+
+set tinfo regime 0
+{1500000,1450000,1400000,1350000,1300000,1275000,1250000,1225000}
+{1500000,1450000,1400000,1350000,1300000,1275000,1250000,1225000}
+
+set tinfo regime 1
+{1157266,1089533,1021800,954067,886334,818601,750868,683135}
+{1155996,1086994,1017992,948990,879988,810986,741984,672982}
+
+set tinfo regime 2
+{660546,637954,615362,592770,570178,547586,524994,502402}
+{647732,622484,597236,571988,546740,521492,496244,470996}
+
+set tinfo regime 3
+{498104,493806,489508,485210,480912,476614,472316,468018}
+{515991,510489,504987,499485,493983,488481,482979,477477}
+
+set tinfo regime 4
+{462057,456094,450131,444168}
+{469922,462365,454808,447251}
+
+set tinfo regime 5
+{444459,438788,433117,427446}
+{442360,437470,432580,427690}
+
+
+## simulation setters ##
+##-----------------------------
+set is_GPU        yes
+set compute_node  1-9
+#set n_steps gen  1e+6
+#set quench_rate  1e+3
+#set which_GPU    1
+#set n_cores_node 16
+#set n_cores_unit 8
+#set n_cores_run  gen 4
+#set n_cores_run  qch 4
+#set n_cores_run  equ 4
+#set n_cores_run  prd 4
+
+
+## analysis setters ##
+##-----------------------------
+set analysispart        all
+set is_changeAtomType   no
+set c_amdat             1
+set logtaubeta          2.75
+#set is_mbodies         no
+#set is_monoStruct      yes
+
+
+## fitdata setters ##
+##-----------------------------
+set is_use_FG           yes
+set is_fit_Fs_by_spline no
+set is_fit_full_alpha   yes
+set is_use_gammafunc    no
+set is_fit_sExp         yes
+set is_fit_Arrhenius    yes
+set is_fit_tauFit       yes
+set is_applytauFitcut   yes
+set is_use_KWWassist    yes
+set is_find_DWF         yes
+set is_calc_thermoData  yes
+set definitionofTA      ArrNor
+set relaxation_target   isfs
+set fcorr_model         KWW    ## KWW,KWW_pwr,mKWW,mKWW_pwr
+set extrp_model         COOP   ## AM,DG,VFT,Mauro,CG,COOP,DEAG,MCT,SOU
+set presq_model         VFT    ## AM,DG,VFT,Mauro,CG,COOP,DEAG,MCT,SOU
+
+
+## theorytest setters ##
+##-----------------------------
+#set is_AGtest          yes
+set is_GLMtest         yes
+set is_HWtest          yes
+set is_Leporinitest    yes
+
+
+#run simulation analysis fitdata amdatinp yes sub yes hold yes sim_restart 0 -p gen 1 -p qch 1 -p equ 1 -p prd 0 ana_restart 1
+
+#run simulation analysis fitdata amdatinp no sub yes hold yes
+
+#run analysis amdatinp no sub yes hold no
+
+#run analysis amdatinp no sub yes hold no
+
+run fitdata theorytest
+
+exit

@@ -1,0 +1,80 @@
+import "oplsaa.lt"
+
+## AAOTP
+
+S012 inherits OPLSAA {
+
+    ## atom-id  mol-id  atom-type  charge  x  y  z
+
+    write("Data Atoms") {
+        $atom:C1 $mol:... @atom:90 0 0.093 -3.606 -0.003
+        $atom:C2 $mol:... @atom:90 0 1.124 -4.516 0.002
+        $atom:C3 $mol:... @atom:90 0 2.403 -4.017 0.003
+        $atom:C4 $mol:... @atom:90 0 2.621 -2.621 0.003
+        $atom:C5 $mol:... @atom:460 0 1.605 -1.61 -0.001
+        $atom:C6 $mol:... @atom:90 0 0.349 -2.212 -0.009
+        $atom:C7 $mol:... @atom:460 0 1.183 1.188 0.001
+        $atom:C8 $mol:... @atom:460 0 1.955 -0.068 -0.001
+        $atom:C9 $mol:... @atom:90 0 3.401 0.129 -0.001
+        $atom:C10 $mol:... @atom:90 0 4.11 1.327 -0
+        $atom:C11 $mol:... @atom:90 0 3.403 2.478 0
+        $atom:C12 $mol:... @atom:90 0 2.014 2.388 0.001
+        $atom:C13 $mol:... @atom:460 0 -0.351 1.575 0.001
+        $atom:C14 $mol:... @atom:90 0 -1.459 0.731 0.009
+        $atom:C15 $mol:... @atom:90 0 -2.817 1.137 0.003
+        $atom:C16 $mol:... @atom:90 0 -3.159 2.47 -0.002
+        $atom:C17 $mol:... @atom:90 0 -0.79 2.94 -0.003
+        $atom:C18 $mol:... @atom:90 0 -2.132 3.382 -0.003
+        $atom:C19 $mol:... @atom:91 0 -0.938 -3.956 -0.006
+        $atom:C20 $mol:... @atom:91 0 0.933 -5.584 0.002
+        $atom:C21 $mol:... @atom:91 0 3.254 -4.695 0.003
+        $atom:C22 $mol:... @atom:91 0 3.681 -2.405 0.005
+        $atom:C23 $mol:... @atom:91 0 -0.549 -1.668 -0.03
+        $atom:C24 $mol:... @atom:91 0 4.098 -0.695 -0.002
+        $atom:C25 $mol:... @atom:91 0 5.196 1.331 -0.001
+        $atom:C26 $mol:... @atom:91 0 3.898 3.444 0.001
+        $atom:C27 $mol:... @atom:91 0 1.595 3.383 0.002
+        $atom:C28 $mol:... @atom:91 0 -1.387 -0.317 0.03
+        $atom:C29 $mol:... @atom:91 0 -3.598 0.379 0.006
+        $atom:C30 $mol:... @atom:91 0 -4.196 2.786 -0.002
+        $atom:C31 $mol:... @atom:91 0 -0.116 3.786 -0.005
+        $atom:C32 $mol:... @atom:91 0 -2.349 4.447 -0.003
+    }
+    write('Data Bond List') {
+        $bond:Bond1 $atom:C1 $atom:C6
+        $bond:Bond2 $atom:C1 $atom:C19
+        $bond:Bond3 $atom:C1 $atom:C2
+        $bond:Bond4 $atom:C2 $atom:C20
+        $bond:Bond5 $atom:C2 $atom:C3
+        $bond:Bond6 $atom:C3 $atom:C21
+        $bond:Bond7 $atom:C3 $atom:C4
+        $bond:Bond8 $atom:C4 $atom:C5
+        $bond:Bond9 $atom:C4 $atom:C22
+        $bond:Bond10 $atom:C5 $atom:C6
+        $bond:Bond11 $atom:C5 $atom:C8
+        $bond:Bond12 $atom:C6 $atom:C23
+        $bond:Bond13 $atom:C7 $atom:C8
+        $bond:Bond14 $atom:C7 $atom:C12
+        $bond:Bond15 $atom:C7 $atom:C13
+        $bond:Bond16 $atom:C8 $atom:C9
+        $bond:Bond17 $atom:C9 $atom:C24
+        $bond:Bond18 $atom:C9 $atom:C10
+        $bond:Bond19 $atom:C10 $atom:C25
+        $bond:Bond20 $atom:C10 $atom:C11
+        $bond:Bond21 $atom:C11 $atom:C26
+        $bond:Bond22 $atom:C11 $atom:C12
+        $bond:Bond23 $atom:C12 $atom:C27
+        $bond:Bond24 $atom:C13 $atom:C17
+        $bond:Bond25 $atom:C13 $atom:C14
+        $bond:Bond26 $atom:C14 $atom:C15
+        $bond:Bond27 $atom:C14 $atom:C28
+        $bond:Bond28 $atom:C15 $atom:C16
+        $bond:Bond29 $atom:C15 $atom:C29
+        $bond:Bond30 $atom:C16 $atom:C18
+        $bond:Bond31 $atom:C16 $atom:C30
+        $bond:Bond32 $atom:C17 $atom:C31
+        $bond:Bond33 $atom:C17 $atom:C18
+        $bond:Bond34 $atom:C18 $atom:C32
+    }
+} ## AAOTP
+

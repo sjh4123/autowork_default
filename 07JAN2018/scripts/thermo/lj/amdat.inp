@@ -1,0 +1,837 @@
+system_np
+custom
+${path_prdcustom}
+exponential ${n_prd_blocks} ${blocksize} ${prd_exp_base} 0 0 ${ts} 
+polymer 100
+1
+96
+
+create_list all
+all
+
+## D.O.P:       96
+## Rouse Modes: 96,48,24,12,6,4,3,2,1
+
+create_multibodies mode96_mb1_list mbType1 centroid species_atomlist polymer 1 0 
+create_multibodies mode96_mb2_list mbType1 centroid species_atomlist polymer 1 1 
+create_multibodies mode96_mb3_list mbType1 centroid species_atomlist polymer 1 2 
+create_multibodies mode96_mb4_list mbType1 centroid species_atomlist polymer 1 3 
+create_multibodies mode96_mb5_list mbType1 centroid species_atomlist polymer 1 4 
+create_multibodies mode96_mb6_list mbType1 centroid species_atomlist polymer 1 5 
+create_multibodies mode96_mb7_list mbType1 centroid species_atomlist polymer 1 6 
+create_multibodies mode96_mb8_list mbType1 centroid species_atomlist polymer 1 7 
+create_multibodies mode96_mb9_list mbType1 centroid species_atomlist polymer 1 8 
+create_multibodies mode96_mb10_list mbType1 centroid species_atomlist polymer 1 9 
+create_multibodies mode96_mb11_list mbType1 centroid species_atomlist polymer 1 10 
+create_multibodies mode96_mb12_list mbType1 centroid species_atomlist polymer 1 11 
+create_multibodies mode96_mb13_list mbType1 centroid species_atomlist polymer 1 12 
+create_multibodies mode96_mb14_list mbType1 centroid species_atomlist polymer 1 13 
+create_multibodies mode96_mb15_list mbType1 centroid species_atomlist polymer 1 14 
+create_multibodies mode96_mb16_list mbType1 centroid species_atomlist polymer 1 15 
+create_multibodies mode96_mb17_list mbType1 centroid species_atomlist polymer 1 16 
+create_multibodies mode96_mb18_list mbType1 centroid species_atomlist polymer 1 17 
+create_multibodies mode96_mb19_list mbType1 centroid species_atomlist polymer 1 18 
+create_multibodies mode96_mb20_list mbType1 centroid species_atomlist polymer 1 19 
+create_multibodies mode96_mb21_list mbType1 centroid species_atomlist polymer 1 20 
+create_multibodies mode96_mb22_list mbType1 centroid species_atomlist polymer 1 21 
+create_multibodies mode96_mb23_list mbType1 centroid species_atomlist polymer 1 22 
+create_multibodies mode96_mb24_list mbType1 centroid species_atomlist polymer 1 23 
+create_multibodies mode96_mb25_list mbType1 centroid species_atomlist polymer 1 24 
+create_multibodies mode96_mb26_list mbType1 centroid species_atomlist polymer 1 25 
+create_multibodies mode96_mb27_list mbType1 centroid species_atomlist polymer 1 26 
+create_multibodies mode96_mb28_list mbType1 centroid species_atomlist polymer 1 27 
+create_multibodies mode96_mb29_list mbType1 centroid species_atomlist polymer 1 28 
+create_multibodies mode96_mb30_list mbType1 centroid species_atomlist polymer 1 29 
+create_multibodies mode96_mb31_list mbType1 centroid species_atomlist polymer 1 30 
+create_multibodies mode96_mb32_list mbType1 centroid species_atomlist polymer 1 31 
+create_multibodies mode96_mb33_list mbType1 centroid species_atomlist polymer 1 32 
+create_multibodies mode96_mb34_list mbType1 centroid species_atomlist polymer 1 33 
+create_multibodies mode96_mb35_list mbType1 centroid species_atomlist polymer 1 34 
+create_multibodies mode96_mb36_list mbType1 centroid species_atomlist polymer 1 35 
+create_multibodies mode96_mb37_list mbType1 centroid species_atomlist polymer 1 36 
+create_multibodies mode96_mb38_list mbType1 centroid species_atomlist polymer 1 37 
+create_multibodies mode96_mb39_list mbType1 centroid species_atomlist polymer 1 38 
+create_multibodies mode96_mb40_list mbType1 centroid species_atomlist polymer 1 39 
+create_multibodies mode96_mb41_list mbType1 centroid species_atomlist polymer 1 40 
+create_multibodies mode96_mb42_list mbType1 centroid species_atomlist polymer 1 41 
+create_multibodies mode96_mb43_list mbType1 centroid species_atomlist polymer 1 42 
+create_multibodies mode96_mb44_list mbType1 centroid species_atomlist polymer 1 43 
+create_multibodies mode96_mb45_list mbType1 centroid species_atomlist polymer 1 44 
+create_multibodies mode96_mb46_list mbType1 centroid species_atomlist polymer 1 45 
+create_multibodies mode96_mb47_list mbType1 centroid species_atomlist polymer 1 46 
+create_multibodies mode96_mb48_list mbType1 centroid species_atomlist polymer 1 47 
+create_multibodies mode96_mb49_list mbType1 centroid species_atomlist polymer 1 48 
+create_multibodies mode96_mb50_list mbType1 centroid species_atomlist polymer 1 49 
+create_multibodies mode96_mb51_list mbType1 centroid species_atomlist polymer 1 50 
+create_multibodies mode96_mb52_list mbType1 centroid species_atomlist polymer 1 51 
+create_multibodies mode96_mb53_list mbType1 centroid species_atomlist polymer 1 52 
+create_multibodies mode96_mb54_list mbType1 centroid species_atomlist polymer 1 53 
+create_multibodies mode96_mb55_list mbType1 centroid species_atomlist polymer 1 54 
+create_multibodies mode96_mb56_list mbType1 centroid species_atomlist polymer 1 55 
+create_multibodies mode96_mb57_list mbType1 centroid species_atomlist polymer 1 56 
+create_multibodies mode96_mb58_list mbType1 centroid species_atomlist polymer 1 57 
+create_multibodies mode96_mb59_list mbType1 centroid species_atomlist polymer 1 58 
+create_multibodies mode96_mb60_list mbType1 centroid species_atomlist polymer 1 59 
+create_multibodies mode96_mb61_list mbType1 centroid species_atomlist polymer 1 60 
+create_multibodies mode96_mb62_list mbType1 centroid species_atomlist polymer 1 61 
+create_multibodies mode96_mb63_list mbType1 centroid species_atomlist polymer 1 62 
+create_multibodies mode96_mb64_list mbType1 centroid species_atomlist polymer 1 63 
+create_multibodies mode96_mb65_list mbType1 centroid species_atomlist polymer 1 64 
+create_multibodies mode96_mb66_list mbType1 centroid species_atomlist polymer 1 65 
+create_multibodies mode96_mb67_list mbType1 centroid species_atomlist polymer 1 66 
+create_multibodies mode96_mb68_list mbType1 centroid species_atomlist polymer 1 67 
+create_multibodies mode96_mb69_list mbType1 centroid species_atomlist polymer 1 68 
+create_multibodies mode96_mb70_list mbType1 centroid species_atomlist polymer 1 69 
+create_multibodies mode96_mb71_list mbType1 centroid species_atomlist polymer 1 70 
+create_multibodies mode96_mb72_list mbType1 centroid species_atomlist polymer 1 71 
+create_multibodies mode96_mb73_list mbType1 centroid species_atomlist polymer 1 72 
+create_multibodies mode96_mb74_list mbType1 centroid species_atomlist polymer 1 73 
+create_multibodies mode96_mb75_list mbType1 centroid species_atomlist polymer 1 74 
+create_multibodies mode96_mb76_list mbType1 centroid species_atomlist polymer 1 75 
+create_multibodies mode96_mb77_list mbType1 centroid species_atomlist polymer 1 76 
+create_multibodies mode96_mb78_list mbType1 centroid species_atomlist polymer 1 77 
+create_multibodies mode96_mb79_list mbType1 centroid species_atomlist polymer 1 78 
+create_multibodies mode96_mb80_list mbType1 centroid species_atomlist polymer 1 79 
+create_multibodies mode96_mb81_list mbType1 centroid species_atomlist polymer 1 80 
+create_multibodies mode96_mb82_list mbType1 centroid species_atomlist polymer 1 81 
+create_multibodies mode96_mb83_list mbType1 centroid species_atomlist polymer 1 82 
+create_multibodies mode96_mb84_list mbType1 centroid species_atomlist polymer 1 83 
+create_multibodies mode96_mb85_list mbType1 centroid species_atomlist polymer 1 84 
+create_multibodies mode96_mb86_list mbType1 centroid species_atomlist polymer 1 85 
+create_multibodies mode96_mb87_list mbType1 centroid species_atomlist polymer 1 86 
+create_multibodies mode96_mb88_list mbType1 centroid species_atomlist polymer 1 87 
+create_multibodies mode96_mb89_list mbType1 centroid species_atomlist polymer 1 88 
+create_multibodies mode96_mb90_list mbType1 centroid species_atomlist polymer 1 89 
+create_multibodies mode96_mb91_list mbType1 centroid species_atomlist polymer 1 90 
+create_multibodies mode96_mb92_list mbType1 centroid species_atomlist polymer 1 91 
+create_multibodies mode96_mb93_list mbType1 centroid species_atomlist polymer 1 92 
+create_multibodies mode96_mb94_list mbType1 centroid species_atomlist polymer 1 93 
+create_multibodies mode96_mb95_list mbType1 centroid species_atomlist polymer 1 94 
+create_multibodies mode96_mb96_list mbType1 centroid species_atomlist polymer 1 95 
+
+combine_multibody_lists mode96 mode96_mb1_list mode96_mb2_list mode96_mb3_list mode96_mb4_list mode96_mb5_list mode96_mb6_list mode96_mb7_list mode96_mb8_list mode96_mb9_list mode96_mb10_list mode96_mb11_list mode96_mb12_list mode96_mb13_list mode96_mb14_list mode96_mb15_list mode96_mb16_list mode96_mb17_list mode96_mb18_list mode96_mb19_list mode96_mb20_list mode96_mb21_list mode96_mb22_list mode96_mb23_list mode96_mb24_list mode96_mb25_list mode96_mb26_list mode96_mb27_list mode96_mb28_list mode96_mb29_list mode96_mb30_list mode96_mb31_list mode96_mb32_list mode96_mb33_list mode96_mb34_list mode96_mb35_list mode96_mb36_list mode96_mb37_list mode96_mb38_list mode96_mb39_list mode96_mb40_list mode96_mb41_list mode96_mb42_list mode96_mb43_list mode96_mb44_list mode96_mb45_list mode96_mb46_list mode96_mb47_list mode96_mb48_list mode96_mb49_list mode96_mb50_list mode96_mb51_list mode96_mb52_list mode96_mb53_list mode96_mb54_list mode96_mb55_list mode96_mb56_list mode96_mb57_list mode96_mb58_list mode96_mb59_list mode96_mb60_list mode96_mb61_list mode96_mb62_list mode96_mb63_list mode96_mb64_list mode96_mb65_list mode96_mb66_list mode96_mb67_list mode96_mb68_list mode96_mb69_list mode96_mb70_list mode96_mb71_list mode96_mb72_list mode96_mb73_list mode96_mb74_list mode96_mb75_list mode96_mb76_list mode96_mb77_list mode96_mb78_list mode96_mb79_list mode96_mb80_list mode96_mb81_list mode96_mb82_list mode96_mb83_list mode96_mb84_list mode96_mb85_list mode96_mb86_list mode96_mb87_list mode96_mb88_list mode96_mb89_list mode96_mb90_list mode96_mb91_list mode96_mb92_list mode96_mb93_list mode96_mb94_list mode96_mb95_list mode96_mb96_list 
+combine_trajectories mode96 mode96_mb1_list mode96_mb2_list mode96_mb3_list mode96_mb4_list mode96_mb5_list mode96_mb6_list mode96_mb7_list mode96_mb8_list mode96_mb9_list mode96_mb10_list mode96_mb11_list mode96_mb12_list mode96_mb13_list mode96_mb14_list mode96_mb15_list mode96_mb16_list mode96_mb17_list mode96_mb18_list mode96_mb19_list mode96_mb20_list mode96_mb21_list mode96_mb22_list mode96_mb23_list mode96_mb24_list mode96_mb25_list mode96_mb26_list mode96_mb27_list mode96_mb28_list mode96_mb29_list mode96_mb30_list mode96_mb31_list mode96_mb32_list mode96_mb33_list mode96_mb34_list mode96_mb35_list mode96_mb36_list mode96_mb37_list mode96_mb38_list mode96_mb39_list mode96_mb40_list mode96_mb41_list mode96_mb42_list mode96_mb43_list mode96_mb44_list mode96_mb45_list mode96_mb46_list mode96_mb47_list mode96_mb48_list mode96_mb49_list mode96_mb50_list mode96_mb51_list mode96_mb52_list mode96_mb53_list mode96_mb54_list mode96_mb55_list mode96_mb56_list mode96_mb57_list mode96_mb58_list mode96_mb59_list mode96_mb60_list mode96_mb61_list mode96_mb62_list mode96_mb63_list mode96_mb64_list mode96_mb65_list mode96_mb66_list mode96_mb67_list mode96_mb68_list mode96_mb69_list mode96_mb70_list mode96_mb71_list mode96_mb72_list mode96_mb73_list mode96_mb74_list mode96_mb75_list mode96_mb76_list mode96_mb77_list mode96_mb78_list mode96_mb79_list mode96_mb80_list mode96_mb81_list mode96_mb82_list mode96_mb83_list mode96_mb84_list mode96_mb85_list mode96_mb86_list mode96_mb87_list mode96_mb88_list mode96_mb89_list mode96_mb90_list mode96_mb91_list mode96_mb92_list mode96_mb93_list mode96_mb94_list mode96_mb95_list mode96_mb96_list 
+
+create_multibodies mode48_mb1_list mbType1 centroid species_atomlist polymer 1 0 1 1 
+create_multibodies mode48_mb2_list mbType1 centroid species_atomlist polymer 1 1 1 2 
+create_multibodies mode48_mb3_list mbType1 centroid species_atomlist polymer 1 2 1 3 
+create_multibodies mode48_mb4_list mbType1 centroid species_atomlist polymer 1 3 1 4 
+create_multibodies mode48_mb5_list mbType1 centroid species_atomlist polymer 1 4 1 5 
+create_multibodies mode48_mb6_list mbType1 centroid species_atomlist polymer 1 5 1 6 
+create_multibodies mode48_mb7_list mbType1 centroid species_atomlist polymer 1 6 1 7 
+create_multibodies mode48_mb8_list mbType1 centroid species_atomlist polymer 1 7 1 8 
+create_multibodies mode48_mb9_list mbType1 centroid species_atomlist polymer 1 8 1 9 
+create_multibodies mode48_mb10_list mbType1 centroid species_atomlist polymer 1 9 1 10 
+create_multibodies mode48_mb11_list mbType1 centroid species_atomlist polymer 1 10 1 11 
+create_multibodies mode48_mb12_list mbType1 centroid species_atomlist polymer 1 11 1 12 
+create_multibodies mode48_mb13_list mbType1 centroid species_atomlist polymer 1 12 1 13 
+create_multibodies mode48_mb14_list mbType1 centroid species_atomlist polymer 1 13 1 14 
+create_multibodies mode48_mb15_list mbType1 centroid species_atomlist polymer 1 14 1 15 
+create_multibodies mode48_mb16_list mbType1 centroid species_atomlist polymer 1 15 1 16 
+create_multibodies mode48_mb17_list mbType1 centroid species_atomlist polymer 1 16 1 17 
+create_multibodies mode48_mb18_list mbType1 centroid species_atomlist polymer 1 17 1 18 
+create_multibodies mode48_mb19_list mbType1 centroid species_atomlist polymer 1 18 1 19 
+create_multibodies mode48_mb20_list mbType1 centroid species_atomlist polymer 1 19 1 20 
+create_multibodies mode48_mb21_list mbType1 centroid species_atomlist polymer 1 20 1 21 
+create_multibodies mode48_mb22_list mbType1 centroid species_atomlist polymer 1 21 1 22 
+create_multibodies mode48_mb23_list mbType1 centroid species_atomlist polymer 1 22 1 23 
+create_multibodies mode48_mb24_list mbType1 centroid species_atomlist polymer 1 23 1 24 
+create_multibodies mode48_mb25_list mbType1 centroid species_atomlist polymer 1 24 1 25 
+create_multibodies mode48_mb26_list mbType1 centroid species_atomlist polymer 1 25 1 26 
+create_multibodies mode48_mb27_list mbType1 centroid species_atomlist polymer 1 26 1 27 
+create_multibodies mode48_mb28_list mbType1 centroid species_atomlist polymer 1 27 1 28 
+create_multibodies mode48_mb29_list mbType1 centroid species_atomlist polymer 1 28 1 29 
+create_multibodies mode48_mb30_list mbType1 centroid species_atomlist polymer 1 29 1 30 
+create_multibodies mode48_mb31_list mbType1 centroid species_atomlist polymer 1 30 1 31 
+create_multibodies mode48_mb32_list mbType1 centroid species_atomlist polymer 1 31 1 32 
+create_multibodies mode48_mb33_list mbType1 centroid species_atomlist polymer 1 32 1 33 
+create_multibodies mode48_mb34_list mbType1 centroid species_atomlist polymer 1 33 1 34 
+create_multibodies mode48_mb35_list mbType1 centroid species_atomlist polymer 1 34 1 35 
+create_multibodies mode48_mb36_list mbType1 centroid species_atomlist polymer 1 35 1 36 
+create_multibodies mode48_mb37_list mbType1 centroid species_atomlist polymer 1 36 1 37 
+create_multibodies mode48_mb38_list mbType1 centroid species_atomlist polymer 1 37 1 38 
+create_multibodies mode48_mb39_list mbType1 centroid species_atomlist polymer 1 38 1 39 
+create_multibodies mode48_mb40_list mbType1 centroid species_atomlist polymer 1 39 1 40 
+create_multibodies mode48_mb41_list mbType1 centroid species_atomlist polymer 1 40 1 41 
+create_multibodies mode48_mb42_list mbType1 centroid species_atomlist polymer 1 41 1 42 
+create_multibodies mode48_mb43_list mbType1 centroid species_atomlist polymer 1 42 1 43 
+create_multibodies mode48_mb44_list mbType1 centroid species_atomlist polymer 1 43 1 44 
+create_multibodies mode48_mb45_list mbType1 centroid species_atomlist polymer 1 44 1 45 
+create_multibodies mode48_mb46_list mbType1 centroid species_atomlist polymer 1 45 1 46 
+create_multibodies mode48_mb47_list mbType1 centroid species_atomlist polymer 1 46 1 47 
+create_multibodies mode48_mb48_list mbType1 centroid species_atomlist polymer 1 47 1 48 
+create_multibodies mode48_mb49_list mbType1 centroid species_atomlist polymer 1 48 1 49 
+create_multibodies mode48_mb50_list mbType1 centroid species_atomlist polymer 1 49 1 50 
+create_multibodies mode48_mb51_list mbType1 centroid species_atomlist polymer 1 50 1 51 
+create_multibodies mode48_mb52_list mbType1 centroid species_atomlist polymer 1 51 1 52 
+create_multibodies mode48_mb53_list mbType1 centroid species_atomlist polymer 1 52 1 53 
+create_multibodies mode48_mb54_list mbType1 centroid species_atomlist polymer 1 53 1 54 
+create_multibodies mode48_mb55_list mbType1 centroid species_atomlist polymer 1 54 1 55 
+create_multibodies mode48_mb56_list mbType1 centroid species_atomlist polymer 1 55 1 56 
+create_multibodies mode48_mb57_list mbType1 centroid species_atomlist polymer 1 56 1 57 
+create_multibodies mode48_mb58_list mbType1 centroid species_atomlist polymer 1 57 1 58 
+create_multibodies mode48_mb59_list mbType1 centroid species_atomlist polymer 1 58 1 59 
+create_multibodies mode48_mb60_list mbType1 centroid species_atomlist polymer 1 59 1 60 
+create_multibodies mode48_mb61_list mbType1 centroid species_atomlist polymer 1 60 1 61 
+create_multibodies mode48_mb62_list mbType1 centroid species_atomlist polymer 1 61 1 62 
+create_multibodies mode48_mb63_list mbType1 centroid species_atomlist polymer 1 62 1 63 
+create_multibodies mode48_mb64_list mbType1 centroid species_atomlist polymer 1 63 1 64 
+create_multibodies mode48_mb65_list mbType1 centroid species_atomlist polymer 1 64 1 65 
+create_multibodies mode48_mb66_list mbType1 centroid species_atomlist polymer 1 65 1 66 
+create_multibodies mode48_mb67_list mbType1 centroid species_atomlist polymer 1 66 1 67 
+create_multibodies mode48_mb68_list mbType1 centroid species_atomlist polymer 1 67 1 68 
+create_multibodies mode48_mb69_list mbType1 centroid species_atomlist polymer 1 68 1 69 
+create_multibodies mode48_mb70_list mbType1 centroid species_atomlist polymer 1 69 1 70 
+create_multibodies mode48_mb71_list mbType1 centroid species_atomlist polymer 1 70 1 71 
+create_multibodies mode48_mb72_list mbType1 centroid species_atomlist polymer 1 71 1 72 
+create_multibodies mode48_mb73_list mbType1 centroid species_atomlist polymer 1 72 1 73 
+create_multibodies mode48_mb74_list mbType1 centroid species_atomlist polymer 1 73 1 74 
+create_multibodies mode48_mb75_list mbType1 centroid species_atomlist polymer 1 74 1 75 
+create_multibodies mode48_mb76_list mbType1 centroid species_atomlist polymer 1 75 1 76 
+create_multibodies mode48_mb77_list mbType1 centroid species_atomlist polymer 1 76 1 77 
+create_multibodies mode48_mb78_list mbType1 centroid species_atomlist polymer 1 77 1 78 
+create_multibodies mode48_mb79_list mbType1 centroid species_atomlist polymer 1 78 1 79 
+create_multibodies mode48_mb80_list mbType1 centroid species_atomlist polymer 1 79 1 80 
+create_multibodies mode48_mb81_list mbType1 centroid species_atomlist polymer 1 80 1 81 
+create_multibodies mode48_mb82_list mbType1 centroid species_atomlist polymer 1 81 1 82 
+create_multibodies mode48_mb83_list mbType1 centroid species_atomlist polymer 1 82 1 83 
+create_multibodies mode48_mb84_list mbType1 centroid species_atomlist polymer 1 83 1 84 
+create_multibodies mode48_mb85_list mbType1 centroid species_atomlist polymer 1 84 1 85 
+create_multibodies mode48_mb86_list mbType1 centroid species_atomlist polymer 1 85 1 86 
+create_multibodies mode48_mb87_list mbType1 centroid species_atomlist polymer 1 86 1 87 
+create_multibodies mode48_mb88_list mbType1 centroid species_atomlist polymer 1 87 1 88 
+create_multibodies mode48_mb89_list mbType1 centroid species_atomlist polymer 1 88 1 89 
+create_multibodies mode48_mb90_list mbType1 centroid species_atomlist polymer 1 89 1 90 
+create_multibodies mode48_mb91_list mbType1 centroid species_atomlist polymer 1 90 1 91 
+create_multibodies mode48_mb92_list mbType1 centroid species_atomlist polymer 1 91 1 92 
+create_multibodies mode48_mb93_list mbType1 centroid species_atomlist polymer 1 92 1 93 
+create_multibodies mode48_mb94_list mbType1 centroid species_atomlist polymer 1 93 1 94 
+create_multibodies mode48_mb95_list mbType1 centroid species_atomlist polymer 1 94 1 95 
+
+combine_multibody_lists mode48 mode48_mb1_list mode48_mb2_list mode48_mb3_list mode48_mb4_list mode48_mb5_list mode48_mb6_list mode48_mb7_list mode48_mb8_list mode48_mb9_list mode48_mb10_list mode48_mb11_list mode48_mb12_list mode48_mb13_list mode48_mb14_list mode48_mb15_list mode48_mb16_list mode48_mb17_list mode48_mb18_list mode48_mb19_list mode48_mb20_list mode48_mb21_list mode48_mb22_list mode48_mb23_list mode48_mb24_list mode48_mb25_list mode48_mb26_list mode48_mb27_list mode48_mb28_list mode48_mb29_list mode48_mb30_list mode48_mb31_list mode48_mb32_list mode48_mb33_list mode48_mb34_list mode48_mb35_list mode48_mb36_list mode48_mb37_list mode48_mb38_list mode48_mb39_list mode48_mb40_list mode48_mb41_list mode48_mb42_list mode48_mb43_list mode48_mb44_list mode48_mb45_list mode48_mb46_list mode48_mb47_list mode48_mb48_list mode48_mb49_list mode48_mb50_list mode48_mb51_list mode48_mb52_list mode48_mb53_list mode48_mb54_list mode48_mb55_list mode48_mb56_list mode48_mb57_list mode48_mb58_list mode48_mb59_list mode48_mb60_list mode48_mb61_list mode48_mb62_list mode48_mb63_list mode48_mb64_list mode48_mb65_list mode48_mb66_list mode48_mb67_list mode48_mb68_list mode48_mb69_list mode48_mb70_list mode48_mb71_list mode48_mb72_list mode48_mb73_list mode48_mb74_list mode48_mb75_list mode48_mb76_list mode48_mb77_list mode48_mb78_list mode48_mb79_list mode48_mb80_list mode48_mb81_list mode48_mb82_list mode48_mb83_list mode48_mb84_list mode48_mb85_list mode48_mb86_list mode48_mb87_list mode48_mb88_list mode48_mb89_list mode48_mb90_list mode48_mb91_list mode48_mb92_list mode48_mb93_list mode48_mb94_list mode48_mb95_list 
+combine_trajectories mode48 mode48_mb1_list mode48_mb2_list mode48_mb3_list mode48_mb4_list mode48_mb5_list mode48_mb6_list mode48_mb7_list mode48_mb8_list mode48_mb9_list mode48_mb10_list mode48_mb11_list mode48_mb12_list mode48_mb13_list mode48_mb14_list mode48_mb15_list mode48_mb16_list mode48_mb17_list mode48_mb18_list mode48_mb19_list mode48_mb20_list mode48_mb21_list mode48_mb22_list mode48_mb23_list mode48_mb24_list mode48_mb25_list mode48_mb26_list mode48_mb27_list mode48_mb28_list mode48_mb29_list mode48_mb30_list mode48_mb31_list mode48_mb32_list mode48_mb33_list mode48_mb34_list mode48_mb35_list mode48_mb36_list mode48_mb37_list mode48_mb38_list mode48_mb39_list mode48_mb40_list mode48_mb41_list mode48_mb42_list mode48_mb43_list mode48_mb44_list mode48_mb45_list mode48_mb46_list mode48_mb47_list mode48_mb48_list mode48_mb49_list mode48_mb50_list mode48_mb51_list mode48_mb52_list mode48_mb53_list mode48_mb54_list mode48_mb55_list mode48_mb56_list mode48_mb57_list mode48_mb58_list mode48_mb59_list mode48_mb60_list mode48_mb61_list mode48_mb62_list mode48_mb63_list mode48_mb64_list mode48_mb65_list mode48_mb66_list mode48_mb67_list mode48_mb68_list mode48_mb69_list mode48_mb70_list mode48_mb71_list mode48_mb72_list mode48_mb73_list mode48_mb74_list mode48_mb75_list mode48_mb76_list mode48_mb77_list mode48_mb78_list mode48_mb79_list mode48_mb80_list mode48_mb81_list mode48_mb82_list mode48_mb83_list mode48_mb84_list mode48_mb85_list mode48_mb86_list mode48_mb87_list mode48_mb88_list mode48_mb89_list mode48_mb90_list mode48_mb91_list mode48_mb92_list mode48_mb93_list mode48_mb94_list mode48_mb95_list 
+
+create_multibodies mode24_mb1_list mbType1 centroid species_atomlist polymer 1 0 1 1 1 2 1 3 
+create_multibodies mode24_mb2_list mbType1 centroid species_atomlist polymer 1 1 1 2 1 3 1 4 
+create_multibodies mode24_mb3_list mbType1 centroid species_atomlist polymer 1 2 1 3 1 4 1 5 
+create_multibodies mode24_mb4_list mbType1 centroid species_atomlist polymer 1 3 1 4 1 5 1 6 
+create_multibodies mode24_mb5_list mbType1 centroid species_atomlist polymer 1 4 1 5 1 6 1 7 
+create_multibodies mode24_mb6_list mbType1 centroid species_atomlist polymer 1 5 1 6 1 7 1 8 
+create_multibodies mode24_mb7_list mbType1 centroid species_atomlist polymer 1 6 1 7 1 8 1 9 
+create_multibodies mode24_mb8_list mbType1 centroid species_atomlist polymer 1 7 1 8 1 9 1 10 
+create_multibodies mode24_mb9_list mbType1 centroid species_atomlist polymer 1 8 1 9 1 10 1 11 
+create_multibodies mode24_mb10_list mbType1 centroid species_atomlist polymer 1 9 1 10 1 11 1 12 
+create_multibodies mode24_mb11_list mbType1 centroid species_atomlist polymer 1 10 1 11 1 12 1 13 
+create_multibodies mode24_mb12_list mbType1 centroid species_atomlist polymer 1 11 1 12 1 13 1 14 
+create_multibodies mode24_mb13_list mbType1 centroid species_atomlist polymer 1 12 1 13 1 14 1 15 
+create_multibodies mode24_mb14_list mbType1 centroid species_atomlist polymer 1 13 1 14 1 15 1 16 
+create_multibodies mode24_mb15_list mbType1 centroid species_atomlist polymer 1 14 1 15 1 16 1 17 
+create_multibodies mode24_mb16_list mbType1 centroid species_atomlist polymer 1 15 1 16 1 17 1 18 
+create_multibodies mode24_mb17_list mbType1 centroid species_atomlist polymer 1 16 1 17 1 18 1 19 
+create_multibodies mode24_mb18_list mbType1 centroid species_atomlist polymer 1 17 1 18 1 19 1 20 
+create_multibodies mode24_mb19_list mbType1 centroid species_atomlist polymer 1 18 1 19 1 20 1 21 
+create_multibodies mode24_mb20_list mbType1 centroid species_atomlist polymer 1 19 1 20 1 21 1 22 
+create_multibodies mode24_mb21_list mbType1 centroid species_atomlist polymer 1 20 1 21 1 22 1 23 
+create_multibodies mode24_mb22_list mbType1 centroid species_atomlist polymer 1 21 1 22 1 23 1 24 
+create_multibodies mode24_mb23_list mbType1 centroid species_atomlist polymer 1 22 1 23 1 24 1 25 
+create_multibodies mode24_mb24_list mbType1 centroid species_atomlist polymer 1 23 1 24 1 25 1 26 
+create_multibodies mode24_mb25_list mbType1 centroid species_atomlist polymer 1 24 1 25 1 26 1 27 
+create_multibodies mode24_mb26_list mbType1 centroid species_atomlist polymer 1 25 1 26 1 27 1 28 
+create_multibodies mode24_mb27_list mbType1 centroid species_atomlist polymer 1 26 1 27 1 28 1 29 
+create_multibodies mode24_mb28_list mbType1 centroid species_atomlist polymer 1 27 1 28 1 29 1 30 
+create_multibodies mode24_mb29_list mbType1 centroid species_atomlist polymer 1 28 1 29 1 30 1 31 
+create_multibodies mode24_mb30_list mbType1 centroid species_atomlist polymer 1 29 1 30 1 31 1 32 
+create_multibodies mode24_mb31_list mbType1 centroid species_atomlist polymer 1 30 1 31 1 32 1 33 
+create_multibodies mode24_mb32_list mbType1 centroid species_atomlist polymer 1 31 1 32 1 33 1 34 
+create_multibodies mode24_mb33_list mbType1 centroid species_atomlist polymer 1 32 1 33 1 34 1 35 
+create_multibodies mode24_mb34_list mbType1 centroid species_atomlist polymer 1 33 1 34 1 35 1 36 
+create_multibodies mode24_mb35_list mbType1 centroid species_atomlist polymer 1 34 1 35 1 36 1 37 
+create_multibodies mode24_mb36_list mbType1 centroid species_atomlist polymer 1 35 1 36 1 37 1 38 
+create_multibodies mode24_mb37_list mbType1 centroid species_atomlist polymer 1 36 1 37 1 38 1 39 
+create_multibodies mode24_mb38_list mbType1 centroid species_atomlist polymer 1 37 1 38 1 39 1 40 
+create_multibodies mode24_mb39_list mbType1 centroid species_atomlist polymer 1 38 1 39 1 40 1 41 
+create_multibodies mode24_mb40_list mbType1 centroid species_atomlist polymer 1 39 1 40 1 41 1 42 
+create_multibodies mode24_mb41_list mbType1 centroid species_atomlist polymer 1 40 1 41 1 42 1 43 
+create_multibodies mode24_mb42_list mbType1 centroid species_atomlist polymer 1 41 1 42 1 43 1 44 
+create_multibodies mode24_mb43_list mbType1 centroid species_atomlist polymer 1 42 1 43 1 44 1 45 
+create_multibodies mode24_mb44_list mbType1 centroid species_atomlist polymer 1 43 1 44 1 45 1 46 
+create_multibodies mode24_mb45_list mbType1 centroid species_atomlist polymer 1 44 1 45 1 46 1 47 
+create_multibodies mode24_mb46_list mbType1 centroid species_atomlist polymer 1 45 1 46 1 47 1 48 
+create_multibodies mode24_mb47_list mbType1 centroid species_atomlist polymer 1 46 1 47 1 48 1 49 
+create_multibodies mode24_mb48_list mbType1 centroid species_atomlist polymer 1 47 1 48 1 49 1 50 
+create_multibodies mode24_mb49_list mbType1 centroid species_atomlist polymer 1 48 1 49 1 50 1 51 
+create_multibodies mode24_mb50_list mbType1 centroid species_atomlist polymer 1 49 1 50 1 51 1 52 
+create_multibodies mode24_mb51_list mbType1 centroid species_atomlist polymer 1 50 1 51 1 52 1 53 
+create_multibodies mode24_mb52_list mbType1 centroid species_atomlist polymer 1 51 1 52 1 53 1 54 
+create_multibodies mode24_mb53_list mbType1 centroid species_atomlist polymer 1 52 1 53 1 54 1 55 
+create_multibodies mode24_mb54_list mbType1 centroid species_atomlist polymer 1 53 1 54 1 55 1 56 
+create_multibodies mode24_mb55_list mbType1 centroid species_atomlist polymer 1 54 1 55 1 56 1 57 
+create_multibodies mode24_mb56_list mbType1 centroid species_atomlist polymer 1 55 1 56 1 57 1 58 
+create_multibodies mode24_mb57_list mbType1 centroid species_atomlist polymer 1 56 1 57 1 58 1 59 
+create_multibodies mode24_mb58_list mbType1 centroid species_atomlist polymer 1 57 1 58 1 59 1 60 
+create_multibodies mode24_mb59_list mbType1 centroid species_atomlist polymer 1 58 1 59 1 60 1 61 
+create_multibodies mode24_mb60_list mbType1 centroid species_atomlist polymer 1 59 1 60 1 61 1 62 
+create_multibodies mode24_mb61_list mbType1 centroid species_atomlist polymer 1 60 1 61 1 62 1 63 
+create_multibodies mode24_mb62_list mbType1 centroid species_atomlist polymer 1 61 1 62 1 63 1 64 
+create_multibodies mode24_mb63_list mbType1 centroid species_atomlist polymer 1 62 1 63 1 64 1 65 
+create_multibodies mode24_mb64_list mbType1 centroid species_atomlist polymer 1 63 1 64 1 65 1 66 
+create_multibodies mode24_mb65_list mbType1 centroid species_atomlist polymer 1 64 1 65 1 66 1 67 
+create_multibodies mode24_mb66_list mbType1 centroid species_atomlist polymer 1 65 1 66 1 67 1 68 
+create_multibodies mode24_mb67_list mbType1 centroid species_atomlist polymer 1 66 1 67 1 68 1 69 
+create_multibodies mode24_mb68_list mbType1 centroid species_atomlist polymer 1 67 1 68 1 69 1 70 
+create_multibodies mode24_mb69_list mbType1 centroid species_atomlist polymer 1 68 1 69 1 70 1 71 
+create_multibodies mode24_mb70_list mbType1 centroid species_atomlist polymer 1 69 1 70 1 71 1 72 
+create_multibodies mode24_mb71_list mbType1 centroid species_atomlist polymer 1 70 1 71 1 72 1 73 
+create_multibodies mode24_mb72_list mbType1 centroid species_atomlist polymer 1 71 1 72 1 73 1 74 
+create_multibodies mode24_mb73_list mbType1 centroid species_atomlist polymer 1 72 1 73 1 74 1 75 
+create_multibodies mode24_mb74_list mbType1 centroid species_atomlist polymer 1 73 1 74 1 75 1 76 
+create_multibodies mode24_mb75_list mbType1 centroid species_atomlist polymer 1 74 1 75 1 76 1 77 
+create_multibodies mode24_mb76_list mbType1 centroid species_atomlist polymer 1 75 1 76 1 77 1 78 
+create_multibodies mode24_mb77_list mbType1 centroid species_atomlist polymer 1 76 1 77 1 78 1 79 
+create_multibodies mode24_mb78_list mbType1 centroid species_atomlist polymer 1 77 1 78 1 79 1 80 
+create_multibodies mode24_mb79_list mbType1 centroid species_atomlist polymer 1 78 1 79 1 80 1 81 
+create_multibodies mode24_mb80_list mbType1 centroid species_atomlist polymer 1 79 1 80 1 81 1 82 
+create_multibodies mode24_mb81_list mbType1 centroid species_atomlist polymer 1 80 1 81 1 82 1 83 
+create_multibodies mode24_mb82_list mbType1 centroid species_atomlist polymer 1 81 1 82 1 83 1 84 
+create_multibodies mode24_mb83_list mbType1 centroid species_atomlist polymer 1 82 1 83 1 84 1 85 
+create_multibodies mode24_mb84_list mbType1 centroid species_atomlist polymer 1 83 1 84 1 85 1 86 
+create_multibodies mode24_mb85_list mbType1 centroid species_atomlist polymer 1 84 1 85 1 86 1 87 
+create_multibodies mode24_mb86_list mbType1 centroid species_atomlist polymer 1 85 1 86 1 87 1 88 
+create_multibodies mode24_mb87_list mbType1 centroid species_atomlist polymer 1 86 1 87 1 88 1 89 
+create_multibodies mode24_mb88_list mbType1 centroid species_atomlist polymer 1 87 1 88 1 89 1 90 
+create_multibodies mode24_mb89_list mbType1 centroid species_atomlist polymer 1 88 1 89 1 90 1 91 
+create_multibodies mode24_mb90_list mbType1 centroid species_atomlist polymer 1 89 1 90 1 91 1 92 
+create_multibodies mode24_mb91_list mbType1 centroid species_atomlist polymer 1 90 1 91 1 92 1 93 
+create_multibodies mode24_mb92_list mbType1 centroid species_atomlist polymer 1 91 1 92 1 93 1 94 
+create_multibodies mode24_mb93_list mbType1 centroid species_atomlist polymer 1 92 1 93 1 94 1 95 
+
+combine_multibody_lists mode24 mode24_mb1_list mode24_mb2_list mode24_mb3_list mode24_mb4_list mode24_mb5_list mode24_mb6_list mode24_mb7_list mode24_mb8_list mode24_mb9_list mode24_mb10_list mode24_mb11_list mode24_mb12_list mode24_mb13_list mode24_mb14_list mode24_mb15_list mode24_mb16_list mode24_mb17_list mode24_mb18_list mode24_mb19_list mode24_mb20_list mode24_mb21_list mode24_mb22_list mode24_mb23_list mode24_mb24_list mode24_mb25_list mode24_mb26_list mode24_mb27_list mode24_mb28_list mode24_mb29_list mode24_mb30_list mode24_mb31_list mode24_mb32_list mode24_mb33_list mode24_mb34_list mode24_mb35_list mode24_mb36_list mode24_mb37_list mode24_mb38_list mode24_mb39_list mode24_mb40_list mode24_mb41_list mode24_mb42_list mode24_mb43_list mode24_mb44_list mode24_mb45_list mode24_mb46_list mode24_mb47_list mode24_mb48_list mode24_mb49_list mode24_mb50_list mode24_mb51_list mode24_mb52_list mode24_mb53_list mode24_mb54_list mode24_mb55_list mode24_mb56_list mode24_mb57_list mode24_mb58_list mode24_mb59_list mode24_mb60_list mode24_mb61_list mode24_mb62_list mode24_mb63_list mode24_mb64_list mode24_mb65_list mode24_mb66_list mode24_mb67_list mode24_mb68_list mode24_mb69_list mode24_mb70_list mode24_mb71_list mode24_mb72_list mode24_mb73_list mode24_mb74_list mode24_mb75_list mode24_mb76_list mode24_mb77_list mode24_mb78_list mode24_mb79_list mode24_mb80_list mode24_mb81_list mode24_mb82_list mode24_mb83_list mode24_mb84_list mode24_mb85_list mode24_mb86_list mode24_mb87_list mode24_mb88_list mode24_mb89_list mode24_mb90_list mode24_mb91_list mode24_mb92_list mode24_mb93_list 
+combine_trajectories mode24 mode24_mb1_list mode24_mb2_list mode24_mb3_list mode24_mb4_list mode24_mb5_list mode24_mb6_list mode24_mb7_list mode24_mb8_list mode24_mb9_list mode24_mb10_list mode24_mb11_list mode24_mb12_list mode24_mb13_list mode24_mb14_list mode24_mb15_list mode24_mb16_list mode24_mb17_list mode24_mb18_list mode24_mb19_list mode24_mb20_list mode24_mb21_list mode24_mb22_list mode24_mb23_list mode24_mb24_list mode24_mb25_list mode24_mb26_list mode24_mb27_list mode24_mb28_list mode24_mb29_list mode24_mb30_list mode24_mb31_list mode24_mb32_list mode24_mb33_list mode24_mb34_list mode24_mb35_list mode24_mb36_list mode24_mb37_list mode24_mb38_list mode24_mb39_list mode24_mb40_list mode24_mb41_list mode24_mb42_list mode24_mb43_list mode24_mb44_list mode24_mb45_list mode24_mb46_list mode24_mb47_list mode24_mb48_list mode24_mb49_list mode24_mb50_list mode24_mb51_list mode24_mb52_list mode24_mb53_list mode24_mb54_list mode24_mb55_list mode24_mb56_list mode24_mb57_list mode24_mb58_list mode24_mb59_list mode24_mb60_list mode24_mb61_list mode24_mb62_list mode24_mb63_list mode24_mb64_list mode24_mb65_list mode24_mb66_list mode24_mb67_list mode24_mb68_list mode24_mb69_list mode24_mb70_list mode24_mb71_list mode24_mb72_list mode24_mb73_list mode24_mb74_list mode24_mb75_list mode24_mb76_list mode24_mb77_list mode24_mb78_list mode24_mb79_list mode24_mb80_list mode24_mb81_list mode24_mb82_list mode24_mb83_list mode24_mb84_list mode24_mb85_list mode24_mb86_list mode24_mb87_list mode24_mb88_list mode24_mb89_list mode24_mb90_list mode24_mb91_list mode24_mb92_list mode24_mb93_list 
+
+create_multibodies mode12_mb1_list mbType1 centroid species_atomlist polymer 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 
+create_multibodies mode12_mb2_list mbType1 centroid species_atomlist polymer 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 
+create_multibodies mode12_mb3_list mbType1 centroid species_atomlist polymer 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 
+create_multibodies mode12_mb4_list mbType1 centroid species_atomlist polymer 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 
+create_multibodies mode12_mb5_list mbType1 centroid species_atomlist polymer 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 
+create_multibodies mode12_mb6_list mbType1 centroid species_atomlist polymer 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 
+create_multibodies mode12_mb7_list mbType1 centroid species_atomlist polymer 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 
+create_multibodies mode12_mb8_list mbType1 centroid species_atomlist polymer 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 
+create_multibodies mode12_mb9_list mbType1 centroid species_atomlist polymer 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 
+create_multibodies mode12_mb10_list mbType1 centroid species_atomlist polymer 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 
+create_multibodies mode12_mb11_list mbType1 centroid species_atomlist polymer 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 
+create_multibodies mode12_mb12_list mbType1 centroid species_atomlist polymer 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 
+create_multibodies mode12_mb13_list mbType1 centroid species_atomlist polymer 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 
+create_multibodies mode12_mb14_list mbType1 centroid species_atomlist polymer 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 
+create_multibodies mode12_mb15_list mbType1 centroid species_atomlist polymer 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 
+create_multibodies mode12_mb16_list mbType1 centroid species_atomlist polymer 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 
+create_multibodies mode12_mb17_list mbType1 centroid species_atomlist polymer 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 
+create_multibodies mode12_mb18_list mbType1 centroid species_atomlist polymer 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 
+create_multibodies mode12_mb19_list mbType1 centroid species_atomlist polymer 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 
+create_multibodies mode12_mb20_list mbType1 centroid species_atomlist polymer 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 
+create_multibodies mode12_mb21_list mbType1 centroid species_atomlist polymer 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 
+create_multibodies mode12_mb22_list mbType1 centroid species_atomlist polymer 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 
+create_multibodies mode12_mb23_list mbType1 centroid species_atomlist polymer 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 
+create_multibodies mode12_mb24_list mbType1 centroid species_atomlist polymer 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 
+create_multibodies mode12_mb25_list mbType1 centroid species_atomlist polymer 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 
+create_multibodies mode12_mb26_list mbType1 centroid species_atomlist polymer 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 
+create_multibodies mode12_mb27_list mbType1 centroid species_atomlist polymer 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 
+create_multibodies mode12_mb28_list mbType1 centroid species_atomlist polymer 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 
+create_multibodies mode12_mb29_list mbType1 centroid species_atomlist polymer 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 
+create_multibodies mode12_mb30_list mbType1 centroid species_atomlist polymer 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 
+create_multibodies mode12_mb31_list mbType1 centroid species_atomlist polymer 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 
+create_multibodies mode12_mb32_list mbType1 centroid species_atomlist polymer 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 
+create_multibodies mode12_mb33_list mbType1 centroid species_atomlist polymer 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 
+create_multibodies mode12_mb34_list mbType1 centroid species_atomlist polymer 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 
+create_multibodies mode12_mb35_list mbType1 centroid species_atomlist polymer 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 
+create_multibodies mode12_mb36_list mbType1 centroid species_atomlist polymer 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 
+create_multibodies mode12_mb37_list mbType1 centroid species_atomlist polymer 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 
+create_multibodies mode12_mb38_list mbType1 centroid species_atomlist polymer 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 
+create_multibodies mode12_mb39_list mbType1 centroid species_atomlist polymer 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 
+create_multibodies mode12_mb40_list mbType1 centroid species_atomlist polymer 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 
+create_multibodies mode12_mb41_list mbType1 centroid species_atomlist polymer 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 
+create_multibodies mode12_mb42_list mbType1 centroid species_atomlist polymer 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 
+create_multibodies mode12_mb43_list mbType1 centroid species_atomlist polymer 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 
+create_multibodies mode12_mb44_list mbType1 centroid species_atomlist polymer 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 
+create_multibodies mode12_mb45_list mbType1 centroid species_atomlist polymer 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 
+create_multibodies mode12_mb46_list mbType1 centroid species_atomlist polymer 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 
+create_multibodies mode12_mb47_list mbType1 centroid species_atomlist polymer 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 
+create_multibodies mode12_mb48_list mbType1 centroid species_atomlist polymer 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 
+create_multibodies mode12_mb49_list mbType1 centroid species_atomlist polymer 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 
+create_multibodies mode12_mb50_list mbType1 centroid species_atomlist polymer 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 
+create_multibodies mode12_mb51_list mbType1 centroid species_atomlist polymer 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 
+create_multibodies mode12_mb52_list mbType1 centroid species_atomlist polymer 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 
+create_multibodies mode12_mb53_list mbType1 centroid species_atomlist polymer 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 
+create_multibodies mode12_mb54_list mbType1 centroid species_atomlist polymer 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 
+create_multibodies mode12_mb55_list mbType1 centroid species_atomlist polymer 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 
+create_multibodies mode12_mb56_list mbType1 centroid species_atomlist polymer 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 
+create_multibodies mode12_mb57_list mbType1 centroid species_atomlist polymer 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 
+create_multibodies mode12_mb58_list mbType1 centroid species_atomlist polymer 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 
+create_multibodies mode12_mb59_list mbType1 centroid species_atomlist polymer 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 
+create_multibodies mode12_mb60_list mbType1 centroid species_atomlist polymer 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 
+create_multibodies mode12_mb61_list mbType1 centroid species_atomlist polymer 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 
+create_multibodies mode12_mb62_list mbType1 centroid species_atomlist polymer 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 
+create_multibodies mode12_mb63_list mbType1 centroid species_atomlist polymer 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 
+create_multibodies mode12_mb64_list mbType1 centroid species_atomlist polymer 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 
+create_multibodies mode12_mb65_list mbType1 centroid species_atomlist polymer 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 
+create_multibodies mode12_mb66_list mbType1 centroid species_atomlist polymer 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 
+create_multibodies mode12_mb67_list mbType1 centroid species_atomlist polymer 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 
+create_multibodies mode12_mb68_list mbType1 centroid species_atomlist polymer 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 
+create_multibodies mode12_mb69_list mbType1 centroid species_atomlist polymer 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 
+create_multibodies mode12_mb70_list mbType1 centroid species_atomlist polymer 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 
+create_multibodies mode12_mb71_list mbType1 centroid species_atomlist polymer 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 
+create_multibodies mode12_mb72_list mbType1 centroid species_atomlist polymer 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 
+create_multibodies mode12_mb73_list mbType1 centroid species_atomlist polymer 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 
+create_multibodies mode12_mb74_list mbType1 centroid species_atomlist polymer 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 
+create_multibodies mode12_mb75_list mbType1 centroid species_atomlist polymer 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 
+create_multibodies mode12_mb76_list mbType1 centroid species_atomlist polymer 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 
+create_multibodies mode12_mb77_list mbType1 centroid species_atomlist polymer 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 
+create_multibodies mode12_mb78_list mbType1 centroid species_atomlist polymer 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 
+create_multibodies mode12_mb79_list mbType1 centroid species_atomlist polymer 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 
+create_multibodies mode12_mb80_list mbType1 centroid species_atomlist polymer 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 
+create_multibodies mode12_mb81_list mbType1 centroid species_atomlist polymer 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 
+create_multibodies mode12_mb82_list mbType1 centroid species_atomlist polymer 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 
+create_multibodies mode12_mb83_list mbType1 centroid species_atomlist polymer 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 
+create_multibodies mode12_mb84_list mbType1 centroid species_atomlist polymer 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 
+create_multibodies mode12_mb85_list mbType1 centroid species_atomlist polymer 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 
+create_multibodies mode12_mb86_list mbType1 centroid species_atomlist polymer 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 
+create_multibodies mode12_mb87_list mbType1 centroid species_atomlist polymer 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 
+create_multibodies mode12_mb88_list mbType1 centroid species_atomlist polymer 1 87 1 88 1 89 1 90 1 91 1 92 1 93 1 94 
+create_multibodies mode12_mb89_list mbType1 centroid species_atomlist polymer 1 88 1 89 1 90 1 91 1 92 1 93 1 94 1 95 
+
+combine_multibody_lists mode12 mode12_mb1_list mode12_mb2_list mode12_mb3_list mode12_mb4_list mode12_mb5_list mode12_mb6_list mode12_mb7_list mode12_mb8_list mode12_mb9_list mode12_mb10_list mode12_mb11_list mode12_mb12_list mode12_mb13_list mode12_mb14_list mode12_mb15_list mode12_mb16_list mode12_mb17_list mode12_mb18_list mode12_mb19_list mode12_mb20_list mode12_mb21_list mode12_mb22_list mode12_mb23_list mode12_mb24_list mode12_mb25_list mode12_mb26_list mode12_mb27_list mode12_mb28_list mode12_mb29_list mode12_mb30_list mode12_mb31_list mode12_mb32_list mode12_mb33_list mode12_mb34_list mode12_mb35_list mode12_mb36_list mode12_mb37_list mode12_mb38_list mode12_mb39_list mode12_mb40_list mode12_mb41_list mode12_mb42_list mode12_mb43_list mode12_mb44_list mode12_mb45_list mode12_mb46_list mode12_mb47_list mode12_mb48_list mode12_mb49_list mode12_mb50_list mode12_mb51_list mode12_mb52_list mode12_mb53_list mode12_mb54_list mode12_mb55_list mode12_mb56_list mode12_mb57_list mode12_mb58_list mode12_mb59_list mode12_mb60_list mode12_mb61_list mode12_mb62_list mode12_mb63_list mode12_mb64_list mode12_mb65_list mode12_mb66_list mode12_mb67_list mode12_mb68_list mode12_mb69_list mode12_mb70_list mode12_mb71_list mode12_mb72_list mode12_mb73_list mode12_mb74_list mode12_mb75_list mode12_mb76_list mode12_mb77_list mode12_mb78_list mode12_mb79_list mode12_mb80_list mode12_mb81_list mode12_mb82_list mode12_mb83_list mode12_mb84_list mode12_mb85_list mode12_mb86_list mode12_mb87_list mode12_mb88_list mode12_mb89_list 
+combine_trajectories mode12 mode12_mb1_list mode12_mb2_list mode12_mb3_list mode12_mb4_list mode12_mb5_list mode12_mb6_list mode12_mb7_list mode12_mb8_list mode12_mb9_list mode12_mb10_list mode12_mb11_list mode12_mb12_list mode12_mb13_list mode12_mb14_list mode12_mb15_list mode12_mb16_list mode12_mb17_list mode12_mb18_list mode12_mb19_list mode12_mb20_list mode12_mb21_list mode12_mb22_list mode12_mb23_list mode12_mb24_list mode12_mb25_list mode12_mb26_list mode12_mb27_list mode12_mb28_list mode12_mb29_list mode12_mb30_list mode12_mb31_list mode12_mb32_list mode12_mb33_list mode12_mb34_list mode12_mb35_list mode12_mb36_list mode12_mb37_list mode12_mb38_list mode12_mb39_list mode12_mb40_list mode12_mb41_list mode12_mb42_list mode12_mb43_list mode12_mb44_list mode12_mb45_list mode12_mb46_list mode12_mb47_list mode12_mb48_list mode12_mb49_list mode12_mb50_list mode12_mb51_list mode12_mb52_list mode12_mb53_list mode12_mb54_list mode12_mb55_list mode12_mb56_list mode12_mb57_list mode12_mb58_list mode12_mb59_list mode12_mb60_list mode12_mb61_list mode12_mb62_list mode12_mb63_list mode12_mb64_list mode12_mb65_list mode12_mb66_list mode12_mb67_list mode12_mb68_list mode12_mb69_list mode12_mb70_list mode12_mb71_list mode12_mb72_list mode12_mb73_list mode12_mb74_list mode12_mb75_list mode12_mb76_list mode12_mb77_list mode12_mb78_list mode12_mb79_list mode12_mb80_list mode12_mb81_list mode12_mb82_list mode12_mb83_list mode12_mb84_list mode12_mb85_list mode12_mb86_list mode12_mb87_list mode12_mb88_list mode12_mb89_list 
+
+create_multibodies mode6_mb1_list mbType1 centroid species_atomlist polymer 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 
+create_multibodies mode6_mb2_list mbType1 centroid species_atomlist polymer 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 
+create_multibodies mode6_mb3_list mbType1 centroid species_atomlist polymer 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 
+create_multibodies mode6_mb4_list mbType1 centroid species_atomlist polymer 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 
+create_multibodies mode6_mb5_list mbType1 centroid species_atomlist polymer 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 
+create_multibodies mode6_mb6_list mbType1 centroid species_atomlist polymer 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 
+create_multibodies mode6_mb7_list mbType1 centroid species_atomlist polymer 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 
+create_multibodies mode6_mb8_list mbType1 centroid species_atomlist polymer 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 
+create_multibodies mode6_mb9_list mbType1 centroid species_atomlist polymer 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 
+create_multibodies mode6_mb10_list mbType1 centroid species_atomlist polymer 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 
+create_multibodies mode6_mb11_list mbType1 centroid species_atomlist polymer 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 
+create_multibodies mode6_mb12_list mbType1 centroid species_atomlist polymer 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 
+create_multibodies mode6_mb13_list mbType1 centroid species_atomlist polymer 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 
+create_multibodies mode6_mb14_list mbType1 centroid species_atomlist polymer 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 
+create_multibodies mode6_mb15_list mbType1 centroid species_atomlist polymer 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 
+create_multibodies mode6_mb16_list mbType1 centroid species_atomlist polymer 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 
+create_multibodies mode6_mb17_list mbType1 centroid species_atomlist polymer 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 
+create_multibodies mode6_mb18_list mbType1 centroid species_atomlist polymer 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 
+create_multibodies mode6_mb19_list mbType1 centroid species_atomlist polymer 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 
+create_multibodies mode6_mb20_list mbType1 centroid species_atomlist polymer 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 
+create_multibodies mode6_mb21_list mbType1 centroid species_atomlist polymer 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 
+create_multibodies mode6_mb22_list mbType1 centroid species_atomlist polymer 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 
+create_multibodies mode6_mb23_list mbType1 centroid species_atomlist polymer 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 
+create_multibodies mode6_mb24_list mbType1 centroid species_atomlist polymer 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 
+create_multibodies mode6_mb25_list mbType1 centroid species_atomlist polymer 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 
+create_multibodies mode6_mb26_list mbType1 centroid species_atomlist polymer 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 
+create_multibodies mode6_mb27_list mbType1 centroid species_atomlist polymer 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 
+create_multibodies mode6_mb28_list mbType1 centroid species_atomlist polymer 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 
+create_multibodies mode6_mb29_list mbType1 centroid species_atomlist polymer 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 
+create_multibodies mode6_mb30_list mbType1 centroid species_atomlist polymer 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 
+create_multibodies mode6_mb31_list mbType1 centroid species_atomlist polymer 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 
+create_multibodies mode6_mb32_list mbType1 centroid species_atomlist polymer 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 
+create_multibodies mode6_mb33_list mbType1 centroid species_atomlist polymer 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 
+create_multibodies mode6_mb34_list mbType1 centroid species_atomlist polymer 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 
+create_multibodies mode6_mb35_list mbType1 centroid species_atomlist polymer 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 
+create_multibodies mode6_mb36_list mbType1 centroid species_atomlist polymer 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 
+create_multibodies mode6_mb37_list mbType1 centroid species_atomlist polymer 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 
+create_multibodies mode6_mb38_list mbType1 centroid species_atomlist polymer 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 
+create_multibodies mode6_mb39_list mbType1 centroid species_atomlist polymer 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 
+create_multibodies mode6_mb40_list mbType1 centroid species_atomlist polymer 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 
+create_multibodies mode6_mb41_list mbType1 centroid species_atomlist polymer 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 
+create_multibodies mode6_mb42_list mbType1 centroid species_atomlist polymer 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 
+create_multibodies mode6_mb43_list mbType1 centroid species_atomlist polymer 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 
+create_multibodies mode6_mb44_list mbType1 centroid species_atomlist polymer 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 
+create_multibodies mode6_mb45_list mbType1 centroid species_atomlist polymer 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 
+create_multibodies mode6_mb46_list mbType1 centroid species_atomlist polymer 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 
+create_multibodies mode6_mb47_list mbType1 centroid species_atomlist polymer 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 
+create_multibodies mode6_mb48_list mbType1 centroid species_atomlist polymer 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 
+create_multibodies mode6_mb49_list mbType1 centroid species_atomlist polymer 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 
+create_multibodies mode6_mb50_list mbType1 centroid species_atomlist polymer 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 
+create_multibodies mode6_mb51_list mbType1 centroid species_atomlist polymer 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 
+create_multibodies mode6_mb52_list mbType1 centroid species_atomlist polymer 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 
+create_multibodies mode6_mb53_list mbType1 centroid species_atomlist polymer 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 
+create_multibodies mode6_mb54_list mbType1 centroid species_atomlist polymer 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 
+create_multibodies mode6_mb55_list mbType1 centroid species_atomlist polymer 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 
+create_multibodies mode6_mb56_list mbType1 centroid species_atomlist polymer 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 
+create_multibodies mode6_mb57_list mbType1 centroid species_atomlist polymer 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 
+create_multibodies mode6_mb58_list mbType1 centroid species_atomlist polymer 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 
+create_multibodies mode6_mb59_list mbType1 centroid species_atomlist polymer 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 
+create_multibodies mode6_mb60_list mbType1 centroid species_atomlist polymer 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 
+create_multibodies mode6_mb61_list mbType1 centroid species_atomlist polymer 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 
+create_multibodies mode6_mb62_list mbType1 centroid species_atomlist polymer 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 
+create_multibodies mode6_mb63_list mbType1 centroid species_atomlist polymer 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 
+create_multibodies mode6_mb64_list mbType1 centroid species_atomlist polymer 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 
+create_multibodies mode6_mb65_list mbType1 centroid species_atomlist polymer 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 
+create_multibodies mode6_mb66_list mbType1 centroid species_atomlist polymer 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 
+create_multibodies mode6_mb67_list mbType1 centroid species_atomlist polymer 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 
+create_multibodies mode6_mb68_list mbType1 centroid species_atomlist polymer 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 
+create_multibodies mode6_mb69_list mbType1 centroid species_atomlist polymer 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 
+create_multibodies mode6_mb70_list mbType1 centroid species_atomlist polymer 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 
+create_multibodies mode6_mb71_list mbType1 centroid species_atomlist polymer 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 
+create_multibodies mode6_mb72_list mbType1 centroid species_atomlist polymer 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 
+create_multibodies mode6_mb73_list mbType1 centroid species_atomlist polymer 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 
+create_multibodies mode6_mb74_list mbType1 centroid species_atomlist polymer 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 
+create_multibodies mode6_mb75_list mbType1 centroid species_atomlist polymer 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 
+create_multibodies mode6_mb76_list mbType1 centroid species_atomlist polymer 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 
+create_multibodies mode6_mb77_list mbType1 centroid species_atomlist polymer 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 
+create_multibodies mode6_mb78_list mbType1 centroid species_atomlist polymer 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 
+create_multibodies mode6_mb79_list mbType1 centroid species_atomlist polymer 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 
+create_multibodies mode6_mb80_list mbType1 centroid species_atomlist polymer 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 1 94 
+create_multibodies mode6_mb81_list mbType1 centroid species_atomlist polymer 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 1 94 1 95 
+
+combine_multibody_lists mode6 mode6_mb1_list mode6_mb2_list mode6_mb3_list mode6_mb4_list mode6_mb5_list mode6_mb6_list mode6_mb7_list mode6_mb8_list mode6_mb9_list mode6_mb10_list mode6_mb11_list mode6_mb12_list mode6_mb13_list mode6_mb14_list mode6_mb15_list mode6_mb16_list mode6_mb17_list mode6_mb18_list mode6_mb19_list mode6_mb20_list mode6_mb21_list mode6_mb22_list mode6_mb23_list mode6_mb24_list mode6_mb25_list mode6_mb26_list mode6_mb27_list mode6_mb28_list mode6_mb29_list mode6_mb30_list mode6_mb31_list mode6_mb32_list mode6_mb33_list mode6_mb34_list mode6_mb35_list mode6_mb36_list mode6_mb37_list mode6_mb38_list mode6_mb39_list mode6_mb40_list mode6_mb41_list mode6_mb42_list mode6_mb43_list mode6_mb44_list mode6_mb45_list mode6_mb46_list mode6_mb47_list mode6_mb48_list mode6_mb49_list mode6_mb50_list mode6_mb51_list mode6_mb52_list mode6_mb53_list mode6_mb54_list mode6_mb55_list mode6_mb56_list mode6_mb57_list mode6_mb58_list mode6_mb59_list mode6_mb60_list mode6_mb61_list mode6_mb62_list mode6_mb63_list mode6_mb64_list mode6_mb65_list mode6_mb66_list mode6_mb67_list mode6_mb68_list mode6_mb69_list mode6_mb70_list mode6_mb71_list mode6_mb72_list mode6_mb73_list mode6_mb74_list mode6_mb75_list mode6_mb76_list mode6_mb77_list mode6_mb78_list mode6_mb79_list mode6_mb80_list mode6_mb81_list 
+combine_trajectories mode6 mode6_mb1_list mode6_mb2_list mode6_mb3_list mode6_mb4_list mode6_mb5_list mode6_mb6_list mode6_mb7_list mode6_mb8_list mode6_mb9_list mode6_mb10_list mode6_mb11_list mode6_mb12_list mode6_mb13_list mode6_mb14_list mode6_mb15_list mode6_mb16_list mode6_mb17_list mode6_mb18_list mode6_mb19_list mode6_mb20_list mode6_mb21_list mode6_mb22_list mode6_mb23_list mode6_mb24_list mode6_mb25_list mode6_mb26_list mode6_mb27_list mode6_mb28_list mode6_mb29_list mode6_mb30_list mode6_mb31_list mode6_mb32_list mode6_mb33_list mode6_mb34_list mode6_mb35_list mode6_mb36_list mode6_mb37_list mode6_mb38_list mode6_mb39_list mode6_mb40_list mode6_mb41_list mode6_mb42_list mode6_mb43_list mode6_mb44_list mode6_mb45_list mode6_mb46_list mode6_mb47_list mode6_mb48_list mode6_mb49_list mode6_mb50_list mode6_mb51_list mode6_mb52_list mode6_mb53_list mode6_mb54_list mode6_mb55_list mode6_mb56_list mode6_mb57_list mode6_mb58_list mode6_mb59_list mode6_mb60_list mode6_mb61_list mode6_mb62_list mode6_mb63_list mode6_mb64_list mode6_mb65_list mode6_mb66_list mode6_mb67_list mode6_mb68_list mode6_mb69_list mode6_mb70_list mode6_mb71_list mode6_mb72_list mode6_mb73_list mode6_mb74_list mode6_mb75_list mode6_mb76_list mode6_mb77_list mode6_mb78_list mode6_mb79_list mode6_mb80_list mode6_mb81_list 
+
+create_multibodies mode4_mb1_list mbType1 centroid species_atomlist polymer 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 
+create_multibodies mode4_mb2_list mbType1 centroid species_atomlist polymer 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 
+create_multibodies mode4_mb3_list mbType1 centroid species_atomlist polymer 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 
+create_multibodies mode4_mb4_list mbType1 centroid species_atomlist polymer 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 
+create_multibodies mode4_mb5_list mbType1 centroid species_atomlist polymer 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 
+create_multibodies mode4_mb6_list mbType1 centroid species_atomlist polymer 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 
+create_multibodies mode4_mb7_list mbType1 centroid species_atomlist polymer 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 
+create_multibodies mode4_mb8_list mbType1 centroid species_atomlist polymer 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 
+create_multibodies mode4_mb9_list mbType1 centroid species_atomlist polymer 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 
+create_multibodies mode4_mb10_list mbType1 centroid species_atomlist polymer 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 
+create_multibodies mode4_mb11_list mbType1 centroid species_atomlist polymer 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 
+create_multibodies mode4_mb12_list mbType1 centroid species_atomlist polymer 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 
+create_multibodies mode4_mb13_list mbType1 centroid species_atomlist polymer 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 
+create_multibodies mode4_mb14_list mbType1 centroid species_atomlist polymer 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 
+create_multibodies mode4_mb15_list mbType1 centroid species_atomlist polymer 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 
+create_multibodies mode4_mb16_list mbType1 centroid species_atomlist polymer 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 
+create_multibodies mode4_mb17_list mbType1 centroid species_atomlist polymer 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 
+create_multibodies mode4_mb18_list mbType1 centroid species_atomlist polymer 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 
+create_multibodies mode4_mb19_list mbType1 centroid species_atomlist polymer 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 
+create_multibodies mode4_mb20_list mbType1 centroid species_atomlist polymer 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 
+create_multibodies mode4_mb21_list mbType1 centroid species_atomlist polymer 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 
+create_multibodies mode4_mb22_list mbType1 centroid species_atomlist polymer 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 
+create_multibodies mode4_mb23_list mbType1 centroid species_atomlist polymer 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 
+create_multibodies mode4_mb24_list mbType1 centroid species_atomlist polymer 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 
+create_multibodies mode4_mb25_list mbType1 centroid species_atomlist polymer 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 
+create_multibodies mode4_mb26_list mbType1 centroid species_atomlist polymer 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 
+create_multibodies mode4_mb27_list mbType1 centroid species_atomlist polymer 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 
+create_multibodies mode4_mb28_list mbType1 centroid species_atomlist polymer 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 
+create_multibodies mode4_mb29_list mbType1 centroid species_atomlist polymer 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 
+create_multibodies mode4_mb30_list mbType1 centroid species_atomlist polymer 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 
+create_multibodies mode4_mb31_list mbType1 centroid species_atomlist polymer 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 
+create_multibodies mode4_mb32_list mbType1 centroid species_atomlist polymer 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 
+create_multibodies mode4_mb33_list mbType1 centroid species_atomlist polymer 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 
+create_multibodies mode4_mb34_list mbType1 centroid species_atomlist polymer 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 
+create_multibodies mode4_mb35_list mbType1 centroid species_atomlist polymer 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 
+create_multibodies mode4_mb36_list mbType1 centroid species_atomlist polymer 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 
+create_multibodies mode4_mb37_list mbType1 centroid species_atomlist polymer 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 
+create_multibodies mode4_mb38_list mbType1 centroid species_atomlist polymer 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 
+create_multibodies mode4_mb39_list mbType1 centroid species_atomlist polymer 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 
+create_multibodies mode4_mb40_list mbType1 centroid species_atomlist polymer 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 
+create_multibodies mode4_mb41_list mbType1 centroid species_atomlist polymer 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 
+create_multibodies mode4_mb42_list mbType1 centroid species_atomlist polymer 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 
+create_multibodies mode4_mb43_list mbType1 centroid species_atomlist polymer 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 
+create_multibodies mode4_mb44_list mbType1 centroid species_atomlist polymer 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 
+create_multibodies mode4_mb45_list mbType1 centroid species_atomlist polymer 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 
+create_multibodies mode4_mb46_list mbType1 centroid species_atomlist polymer 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 
+create_multibodies mode4_mb47_list mbType1 centroid species_atomlist polymer 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 
+create_multibodies mode4_mb48_list mbType1 centroid species_atomlist polymer 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 
+create_multibodies mode4_mb49_list mbType1 centroid species_atomlist polymer 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 
+create_multibodies mode4_mb50_list mbType1 centroid species_atomlist polymer 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 
+create_multibodies mode4_mb51_list mbType1 centroid species_atomlist polymer 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 
+create_multibodies mode4_mb52_list mbType1 centroid species_atomlist polymer 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 
+create_multibodies mode4_mb53_list mbType1 centroid species_atomlist polymer 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 
+create_multibodies mode4_mb54_list mbType1 centroid species_atomlist polymer 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 
+create_multibodies mode4_mb55_list mbType1 centroid species_atomlist polymer 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 
+create_multibodies mode4_mb56_list mbType1 centroid species_atomlist polymer 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 
+create_multibodies mode4_mb57_list mbType1 centroid species_atomlist polymer 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 
+create_multibodies mode4_mb58_list mbType1 centroid species_atomlist polymer 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 
+create_multibodies mode4_mb59_list mbType1 centroid species_atomlist polymer 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 
+create_multibodies mode4_mb60_list mbType1 centroid species_atomlist polymer 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 
+create_multibodies mode4_mb61_list mbType1 centroid species_atomlist polymer 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 
+create_multibodies mode4_mb62_list mbType1 centroid species_atomlist polymer 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 
+create_multibodies mode4_mb63_list mbType1 centroid species_atomlist polymer 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 
+create_multibodies mode4_mb64_list mbType1 centroid species_atomlist polymer 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 
+create_multibodies mode4_mb65_list mbType1 centroid species_atomlist polymer 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 
+create_multibodies mode4_mb66_list mbType1 centroid species_atomlist polymer 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 
+create_multibodies mode4_mb67_list mbType1 centroid species_atomlist polymer 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 
+create_multibodies mode4_mb68_list mbType1 centroid species_atomlist polymer 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 
+create_multibodies mode4_mb69_list mbType1 centroid species_atomlist polymer 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 
+create_multibodies mode4_mb70_list mbType1 centroid species_atomlist polymer 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 
+create_multibodies mode4_mb71_list mbType1 centroid species_atomlist polymer 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 
+create_multibodies mode4_mb72_list mbType1 centroid species_atomlist polymer 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 1 94 
+create_multibodies mode4_mb73_list mbType1 centroid species_atomlist polymer 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 1 94 1 95 
+
+combine_multibody_lists mode4 mode4_mb1_list mode4_mb2_list mode4_mb3_list mode4_mb4_list mode4_mb5_list mode4_mb6_list mode4_mb7_list mode4_mb8_list mode4_mb9_list mode4_mb10_list mode4_mb11_list mode4_mb12_list mode4_mb13_list mode4_mb14_list mode4_mb15_list mode4_mb16_list mode4_mb17_list mode4_mb18_list mode4_mb19_list mode4_mb20_list mode4_mb21_list mode4_mb22_list mode4_mb23_list mode4_mb24_list mode4_mb25_list mode4_mb26_list mode4_mb27_list mode4_mb28_list mode4_mb29_list mode4_mb30_list mode4_mb31_list mode4_mb32_list mode4_mb33_list mode4_mb34_list mode4_mb35_list mode4_mb36_list mode4_mb37_list mode4_mb38_list mode4_mb39_list mode4_mb40_list mode4_mb41_list mode4_mb42_list mode4_mb43_list mode4_mb44_list mode4_mb45_list mode4_mb46_list mode4_mb47_list mode4_mb48_list mode4_mb49_list mode4_mb50_list mode4_mb51_list mode4_mb52_list mode4_mb53_list mode4_mb54_list mode4_mb55_list mode4_mb56_list mode4_mb57_list mode4_mb58_list mode4_mb59_list mode4_mb60_list mode4_mb61_list mode4_mb62_list mode4_mb63_list mode4_mb64_list mode4_mb65_list mode4_mb66_list mode4_mb67_list mode4_mb68_list mode4_mb69_list mode4_mb70_list mode4_mb71_list mode4_mb72_list mode4_mb73_list 
+combine_trajectories mode4 mode4_mb1_list mode4_mb2_list mode4_mb3_list mode4_mb4_list mode4_mb5_list mode4_mb6_list mode4_mb7_list mode4_mb8_list mode4_mb9_list mode4_mb10_list mode4_mb11_list mode4_mb12_list mode4_mb13_list mode4_mb14_list mode4_mb15_list mode4_mb16_list mode4_mb17_list mode4_mb18_list mode4_mb19_list mode4_mb20_list mode4_mb21_list mode4_mb22_list mode4_mb23_list mode4_mb24_list mode4_mb25_list mode4_mb26_list mode4_mb27_list mode4_mb28_list mode4_mb29_list mode4_mb30_list mode4_mb31_list mode4_mb32_list mode4_mb33_list mode4_mb34_list mode4_mb35_list mode4_mb36_list mode4_mb37_list mode4_mb38_list mode4_mb39_list mode4_mb40_list mode4_mb41_list mode4_mb42_list mode4_mb43_list mode4_mb44_list mode4_mb45_list mode4_mb46_list mode4_mb47_list mode4_mb48_list mode4_mb49_list mode4_mb50_list mode4_mb51_list mode4_mb52_list mode4_mb53_list mode4_mb54_list mode4_mb55_list mode4_mb56_list mode4_mb57_list mode4_mb58_list mode4_mb59_list mode4_mb60_list mode4_mb61_list mode4_mb62_list mode4_mb63_list mode4_mb64_list mode4_mb65_list mode4_mb66_list mode4_mb67_list mode4_mb68_list mode4_mb69_list mode4_mb70_list mode4_mb71_list mode4_mb72_list mode4_mb73_list 
+
+create_multibodies mode3_mb1_list mbType1 centroid species_atomlist polymer 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 
+create_multibodies mode3_mb2_list mbType1 centroid species_atomlist polymer 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 
+create_multibodies mode3_mb3_list mbType1 centroid species_atomlist polymer 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 
+create_multibodies mode3_mb4_list mbType1 centroid species_atomlist polymer 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 
+create_multibodies mode3_mb5_list mbType1 centroid species_atomlist polymer 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 
+create_multibodies mode3_mb6_list mbType1 centroid species_atomlist polymer 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 
+create_multibodies mode3_mb7_list mbType1 centroid species_atomlist polymer 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 
+create_multibodies mode3_mb8_list mbType1 centroid species_atomlist polymer 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 
+create_multibodies mode3_mb9_list mbType1 centroid species_atomlist polymer 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 
+create_multibodies mode3_mb10_list mbType1 centroid species_atomlist polymer 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 
+create_multibodies mode3_mb11_list mbType1 centroid species_atomlist polymer 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 
+create_multibodies mode3_mb12_list mbType1 centroid species_atomlist polymer 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 
+create_multibodies mode3_mb13_list mbType1 centroid species_atomlist polymer 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 
+create_multibodies mode3_mb14_list mbType1 centroid species_atomlist polymer 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 
+create_multibodies mode3_mb15_list mbType1 centroid species_atomlist polymer 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 
+create_multibodies mode3_mb16_list mbType1 centroid species_atomlist polymer 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 
+create_multibodies mode3_mb17_list mbType1 centroid species_atomlist polymer 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 
+create_multibodies mode3_mb18_list mbType1 centroid species_atomlist polymer 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 
+create_multibodies mode3_mb19_list mbType1 centroid species_atomlist polymer 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 
+create_multibodies mode3_mb20_list mbType1 centroid species_atomlist polymer 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 
+create_multibodies mode3_mb21_list mbType1 centroid species_atomlist polymer 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 
+create_multibodies mode3_mb22_list mbType1 centroid species_atomlist polymer 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 
+create_multibodies mode3_mb23_list mbType1 centroid species_atomlist polymer 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 
+create_multibodies mode3_mb24_list mbType1 centroid species_atomlist polymer 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 
+create_multibodies mode3_mb25_list mbType1 centroid species_atomlist polymer 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 
+create_multibodies mode3_mb26_list mbType1 centroid species_atomlist polymer 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 
+create_multibodies mode3_mb27_list mbType1 centroid species_atomlist polymer 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 
+create_multibodies mode3_mb28_list mbType1 centroid species_atomlist polymer 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 
+create_multibodies mode3_mb29_list mbType1 centroid species_atomlist polymer 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 
+create_multibodies mode3_mb30_list mbType1 centroid species_atomlist polymer 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 
+create_multibodies mode3_mb31_list mbType1 centroid species_atomlist polymer 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 
+create_multibodies mode3_mb32_list mbType1 centroid species_atomlist polymer 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 
+create_multibodies mode3_mb33_list mbType1 centroid species_atomlist polymer 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 
+create_multibodies mode3_mb34_list mbType1 centroid species_atomlist polymer 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 
+create_multibodies mode3_mb35_list mbType1 centroid species_atomlist polymer 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 
+create_multibodies mode3_mb36_list mbType1 centroid species_atomlist polymer 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 
+create_multibodies mode3_mb37_list mbType1 centroid species_atomlist polymer 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 
+create_multibodies mode3_mb38_list mbType1 centroid species_atomlist polymer 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 
+create_multibodies mode3_mb39_list mbType1 centroid species_atomlist polymer 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 
+create_multibodies mode3_mb40_list mbType1 centroid species_atomlist polymer 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 
+create_multibodies mode3_mb41_list mbType1 centroid species_atomlist polymer 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 
+create_multibodies mode3_mb42_list mbType1 centroid species_atomlist polymer 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 
+create_multibodies mode3_mb43_list mbType1 centroid species_atomlist polymer 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 
+create_multibodies mode3_mb44_list mbType1 centroid species_atomlist polymer 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 
+create_multibodies mode3_mb45_list mbType1 centroid species_atomlist polymer 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 
+create_multibodies mode3_mb46_list mbType1 centroid species_atomlist polymer 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 
+create_multibodies mode3_mb47_list mbType1 centroid species_atomlist polymer 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 
+create_multibodies mode3_mb48_list mbType1 centroid species_atomlist polymer 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 
+create_multibodies mode3_mb49_list mbType1 centroid species_atomlist polymer 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 
+create_multibodies mode3_mb50_list mbType1 centroid species_atomlist polymer 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 
+create_multibodies mode3_mb51_list mbType1 centroid species_atomlist polymer 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 
+create_multibodies mode3_mb52_list mbType1 centroid species_atomlist polymer 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 
+create_multibodies mode3_mb53_list mbType1 centroid species_atomlist polymer 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 
+create_multibodies mode3_mb54_list mbType1 centroid species_atomlist polymer 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 
+create_multibodies mode3_mb55_list mbType1 centroid species_atomlist polymer 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 
+create_multibodies mode3_mb56_list mbType1 centroid species_atomlist polymer 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 
+create_multibodies mode3_mb57_list mbType1 centroid species_atomlist polymer 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 
+create_multibodies mode3_mb58_list mbType1 centroid species_atomlist polymer 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 
+create_multibodies mode3_mb59_list mbType1 centroid species_atomlist polymer 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 
+create_multibodies mode3_mb60_list mbType1 centroid species_atomlist polymer 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 
+create_multibodies mode3_mb61_list mbType1 centroid species_atomlist polymer 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 
+create_multibodies mode3_mb62_list mbType1 centroid species_atomlist polymer 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 
+create_multibodies mode3_mb63_list mbType1 centroid species_atomlist polymer 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 
+create_multibodies mode3_mb64_list mbType1 centroid species_atomlist polymer 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 1 94 
+create_multibodies mode3_mb65_list mbType1 centroid species_atomlist polymer 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 1 94 1 95 
+
+combine_multibody_lists mode3 mode3_mb1_list mode3_mb2_list mode3_mb3_list mode3_mb4_list mode3_mb5_list mode3_mb6_list mode3_mb7_list mode3_mb8_list mode3_mb9_list mode3_mb10_list mode3_mb11_list mode3_mb12_list mode3_mb13_list mode3_mb14_list mode3_mb15_list mode3_mb16_list mode3_mb17_list mode3_mb18_list mode3_mb19_list mode3_mb20_list mode3_mb21_list mode3_mb22_list mode3_mb23_list mode3_mb24_list mode3_mb25_list mode3_mb26_list mode3_mb27_list mode3_mb28_list mode3_mb29_list mode3_mb30_list mode3_mb31_list mode3_mb32_list mode3_mb33_list mode3_mb34_list mode3_mb35_list mode3_mb36_list mode3_mb37_list mode3_mb38_list mode3_mb39_list mode3_mb40_list mode3_mb41_list mode3_mb42_list mode3_mb43_list mode3_mb44_list mode3_mb45_list mode3_mb46_list mode3_mb47_list mode3_mb48_list mode3_mb49_list mode3_mb50_list mode3_mb51_list mode3_mb52_list mode3_mb53_list mode3_mb54_list mode3_mb55_list mode3_mb56_list mode3_mb57_list mode3_mb58_list mode3_mb59_list mode3_mb60_list mode3_mb61_list mode3_mb62_list mode3_mb63_list mode3_mb64_list mode3_mb65_list 
+combine_trajectories mode3 mode3_mb1_list mode3_mb2_list mode3_mb3_list mode3_mb4_list mode3_mb5_list mode3_mb6_list mode3_mb7_list mode3_mb8_list mode3_mb9_list mode3_mb10_list mode3_mb11_list mode3_mb12_list mode3_mb13_list mode3_mb14_list mode3_mb15_list mode3_mb16_list mode3_mb17_list mode3_mb18_list mode3_mb19_list mode3_mb20_list mode3_mb21_list mode3_mb22_list mode3_mb23_list mode3_mb24_list mode3_mb25_list mode3_mb26_list mode3_mb27_list mode3_mb28_list mode3_mb29_list mode3_mb30_list mode3_mb31_list mode3_mb32_list mode3_mb33_list mode3_mb34_list mode3_mb35_list mode3_mb36_list mode3_mb37_list mode3_mb38_list mode3_mb39_list mode3_mb40_list mode3_mb41_list mode3_mb42_list mode3_mb43_list mode3_mb44_list mode3_mb45_list mode3_mb46_list mode3_mb47_list mode3_mb48_list mode3_mb49_list mode3_mb50_list mode3_mb51_list mode3_mb52_list mode3_mb53_list mode3_mb54_list mode3_mb55_list mode3_mb56_list mode3_mb57_list mode3_mb58_list mode3_mb59_list mode3_mb60_list mode3_mb61_list mode3_mb62_list mode3_mb63_list mode3_mb64_list mode3_mb65_list 
+
+create_multibodies mode2_mb1_list mbType1 centroid species_atomlist polymer 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 
+create_multibodies mode2_mb2_list mbType1 centroid species_atomlist polymer 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 
+create_multibodies mode2_mb3_list mbType1 centroid species_atomlist polymer 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 
+create_multibodies mode2_mb4_list mbType1 centroid species_atomlist polymer 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 
+create_multibodies mode2_mb5_list mbType1 centroid species_atomlist polymer 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 
+create_multibodies mode2_mb6_list mbType1 centroid species_atomlist polymer 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 
+create_multibodies mode2_mb7_list mbType1 centroid species_atomlist polymer 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 
+create_multibodies mode2_mb8_list mbType1 centroid species_atomlist polymer 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 
+create_multibodies mode2_mb9_list mbType1 centroid species_atomlist polymer 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 
+create_multibodies mode2_mb10_list mbType1 centroid species_atomlist polymer 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 
+create_multibodies mode2_mb11_list mbType1 centroid species_atomlist polymer 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 
+create_multibodies mode2_mb12_list mbType1 centroid species_atomlist polymer 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 
+create_multibodies mode2_mb13_list mbType1 centroid species_atomlist polymer 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 
+create_multibodies mode2_mb14_list mbType1 centroid species_atomlist polymer 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 
+create_multibodies mode2_mb15_list mbType1 centroid species_atomlist polymer 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 
+create_multibodies mode2_mb16_list mbType1 centroid species_atomlist polymer 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 
+create_multibodies mode2_mb17_list mbType1 centroid species_atomlist polymer 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 
+create_multibodies mode2_mb18_list mbType1 centroid species_atomlist polymer 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 
+create_multibodies mode2_mb19_list mbType1 centroid species_atomlist polymer 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 
+create_multibodies mode2_mb20_list mbType1 centroid species_atomlist polymer 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 
+create_multibodies mode2_mb21_list mbType1 centroid species_atomlist polymer 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 
+create_multibodies mode2_mb22_list mbType1 centroid species_atomlist polymer 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 
+create_multibodies mode2_mb23_list mbType1 centroid species_atomlist polymer 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 
+create_multibodies mode2_mb24_list mbType1 centroid species_atomlist polymer 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 
+create_multibodies mode2_mb25_list mbType1 centroid species_atomlist polymer 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 
+create_multibodies mode2_mb26_list mbType1 centroid species_atomlist polymer 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 
+create_multibodies mode2_mb27_list mbType1 centroid species_atomlist polymer 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 
+create_multibodies mode2_mb28_list mbType1 centroid species_atomlist polymer 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 
+create_multibodies mode2_mb29_list mbType1 centroid species_atomlist polymer 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 
+create_multibodies mode2_mb30_list mbType1 centroid species_atomlist polymer 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 
+create_multibodies mode2_mb31_list mbType1 centroid species_atomlist polymer 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 
+create_multibodies mode2_mb32_list mbType1 centroid species_atomlist polymer 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 
+create_multibodies mode2_mb33_list mbType1 centroid species_atomlist polymer 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 
+create_multibodies mode2_mb34_list mbType1 centroid species_atomlist polymer 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 
+create_multibodies mode2_mb35_list mbType1 centroid species_atomlist polymer 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 
+create_multibodies mode2_mb36_list mbType1 centroid species_atomlist polymer 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 
+create_multibodies mode2_mb37_list mbType1 centroid species_atomlist polymer 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 
+create_multibodies mode2_mb38_list mbType1 centroid species_atomlist polymer 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 
+create_multibodies mode2_mb39_list mbType1 centroid species_atomlist polymer 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 
+create_multibodies mode2_mb40_list mbType1 centroid species_atomlist polymer 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 
+create_multibodies mode2_mb41_list mbType1 centroid species_atomlist polymer 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 
+create_multibodies mode2_mb42_list mbType1 centroid species_atomlist polymer 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 
+create_multibodies mode2_mb43_list mbType1 centroid species_atomlist polymer 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 
+create_multibodies mode2_mb44_list mbType1 centroid species_atomlist polymer 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 
+create_multibodies mode2_mb45_list mbType1 centroid species_atomlist polymer 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 
+create_multibodies mode2_mb46_list mbType1 centroid species_atomlist polymer 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 
+create_multibodies mode2_mb47_list mbType1 centroid species_atomlist polymer 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 
+create_multibodies mode2_mb48_list mbType1 centroid species_atomlist polymer 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 1 94 
+create_multibodies mode2_mb49_list mbType1 centroid species_atomlist polymer 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 1 94 1 95 
+
+combine_multibody_lists mode2 mode2_mb1_list mode2_mb2_list mode2_mb3_list mode2_mb4_list mode2_mb5_list mode2_mb6_list mode2_mb7_list mode2_mb8_list mode2_mb9_list mode2_mb10_list mode2_mb11_list mode2_mb12_list mode2_mb13_list mode2_mb14_list mode2_mb15_list mode2_mb16_list mode2_mb17_list mode2_mb18_list mode2_mb19_list mode2_mb20_list mode2_mb21_list mode2_mb22_list mode2_mb23_list mode2_mb24_list mode2_mb25_list mode2_mb26_list mode2_mb27_list mode2_mb28_list mode2_mb29_list mode2_mb30_list mode2_mb31_list mode2_mb32_list mode2_mb33_list mode2_mb34_list mode2_mb35_list mode2_mb36_list mode2_mb37_list mode2_mb38_list mode2_mb39_list mode2_mb40_list mode2_mb41_list mode2_mb42_list mode2_mb43_list mode2_mb44_list mode2_mb45_list mode2_mb46_list mode2_mb47_list mode2_mb48_list mode2_mb49_list 
+combine_trajectories mode2 mode2_mb1_list mode2_mb2_list mode2_mb3_list mode2_mb4_list mode2_mb5_list mode2_mb6_list mode2_mb7_list mode2_mb8_list mode2_mb9_list mode2_mb10_list mode2_mb11_list mode2_mb12_list mode2_mb13_list mode2_mb14_list mode2_mb15_list mode2_mb16_list mode2_mb17_list mode2_mb18_list mode2_mb19_list mode2_mb20_list mode2_mb21_list mode2_mb22_list mode2_mb23_list mode2_mb24_list mode2_mb25_list mode2_mb26_list mode2_mb27_list mode2_mb28_list mode2_mb29_list mode2_mb30_list mode2_mb31_list mode2_mb32_list mode2_mb33_list mode2_mb34_list mode2_mb35_list mode2_mb36_list mode2_mb37_list mode2_mb38_list mode2_mb39_list mode2_mb40_list mode2_mb41_list mode2_mb42_list mode2_mb43_list mode2_mb44_list mode2_mb45_list mode2_mb46_list mode2_mb47_list mode2_mb48_list mode2_mb49_list 
+
+create_multibodies mode1_mb1_list mbType1 centroid species_atomlist polymer 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12 1 13 1 14 1 15 1 16 1 17 1 18 1 19 1 20 1 21 1 22 1 23 1 24 1 25 1 26 1 27 1 28 1 29 1 30 1 31 1 32 1 33 1 34 1 35 1 36 1 37 1 38 1 39 1 40 1 41 1 42 1 43 1 44 1 45 1 46 1 47 1 48 1 49 1 50 1 51 1 52 1 53 1 54 1 55 1 56 1 57 1 58 1 59 1 60 1 61 1 62 1 63 1 64 1 65 1 66 1 67 1 68 1 69 1 70 1 71 1 72 1 73 1 74 1 75 1 76 1 77 1 78 1 79 1 80 1 81 1 82 1 83 1 84 1 85 1 86 1 87 1 88 1 89 1 90 1 91 1 92 1 93 1 94 1 95 
+
+combine_multibody_lists mode1 mode1_mb1_list 
+combine_trajectories mode1 mode1_mb1_list 
+
+
+
+##write_list_trajectory all ./statistics/mbTraj/all_${usic}_${trial}_${namestring}_T${Temp}.xyz
+##write_list_trajectory mode96 ./statistics/mbTraj/mode96_${usic}_${trial}_${namestring}_T${Temp}.xyz
+
+
+
+msd ./statistics/msd/msd_${usic}_${trial}_${namestring}_T${Temp}.all.dat
+list all
+
+ngp ./statistics/ngp/ngp_${usic}_${trial}_${namestring}_T${Temp}.all.dat
+list all
+
+structure_factor ./statistics/strFac/strFac_${usic}_${trial}_${namestring}_T${Temp}.all.dat symmetric xyz 0 0
+list all
+
+isfs ./statistics/isfs/isfs_${usic}_${trial}_${namestring}_T${Temp}.all.dat ${waveindex} ${waveindex} xyz ${maxLenScale} 0
+list all
+
+
+
+msd ./statistics/msd/msd_${usic}_${trial}_${namestring}_T${Temp}.mode96.dat
+list mode96
+
+ngp ./statistics/ngp/ngp_${usic}_${trial}_${namestring}_T${Temp}.mode96.dat
+list mode96
+
+structure_factor ./statistics/strFac/strFac_${usic}_${trial}_${namestring}_T${Temp}.mode96.dat symmetric xyz 0 0
+list mode96
+
+isfs ./statistics/isfs/isfs_${usic}_${trial}_${namestring}_T${Temp}.mode96.dat ${waveindex} ${waveindex} xyz ${maxLenScale} 0
+list mode96
+
+
+
+msd ./statistics/msd/msd_${usic}_${trial}_${namestring}_T${Temp}.mode48.dat
+list mode48
+
+ngp ./statistics/ngp/ngp_${usic}_${trial}_${namestring}_T${Temp}.mode48.dat
+list mode48
+
+structure_factor ./statistics/strFac/strFac_${usic}_${trial}_${namestring}_T${Temp}.mode48.dat symmetric xyz 0 0
+list mode48
+
+isfs ./statistics/isfs/isfs_${usic}_${trial}_${namestring}_T${Temp}.mode48.dat ${waveindex} ${waveindex} xyz ${maxLenScale} 0
+list mode48
+
+
+
+msd ./statistics/msd/msd_${usic}_${trial}_${namestring}_T${Temp}.mode24.dat
+list mode24
+
+ngp ./statistics/ngp/ngp_${usic}_${trial}_${namestring}_T${Temp}.mode24.dat
+list mode24
+
+structure_factor ./statistics/strFac/strFac_${usic}_${trial}_${namestring}_T${Temp}.mode24.dat symmetric xyz 0 0
+list mode24
+
+isfs ./statistics/isfs/isfs_${usic}_${trial}_${namestring}_T${Temp}.mode24.dat ${waveindex} ${waveindex} xyz ${maxLenScale} 0
+list mode24
+
+
+
+msd ./statistics/msd/msd_${usic}_${trial}_${namestring}_T${Temp}.mode12.dat
+list mode12
+
+ngp ./statistics/ngp/ngp_${usic}_${trial}_${namestring}_T${Temp}.mode12.dat
+list mode12
+
+structure_factor ./statistics/strFac/strFac_${usic}_${trial}_${namestring}_T${Temp}.mode12.dat symmetric xyz 0 0
+list mode12
+
+isfs ./statistics/isfs/isfs_${usic}_${trial}_${namestring}_T${Temp}.mode12.dat ${waveindex} ${waveindex} xyz ${maxLenScale} 0
+list mode12
+
+
+
+msd ./statistics/msd/msd_${usic}_${trial}_${namestring}_T${Temp}.mode6.dat
+list mode6
+
+ngp ./statistics/ngp/ngp_${usic}_${trial}_${namestring}_T${Temp}.mode6.dat
+list mode6
+
+structure_factor ./statistics/strFac/strFac_${usic}_${trial}_${namestring}_T${Temp}.mode6.dat symmetric xyz 0 0
+list mode6
+
+isfs ./statistics/isfs/isfs_${usic}_${trial}_${namestring}_T${Temp}.mode6.dat ${waveindex} ${waveindex} xyz ${maxLenScale} 0
+list mode6
+
+
+
+msd ./statistics/msd/msd_${usic}_${trial}_${namestring}_T${Temp}.mode4.dat
+list mode4
+
+ngp ./statistics/ngp/ngp_${usic}_${trial}_${namestring}_T${Temp}.mode4.dat
+list mode4
+
+structure_factor ./statistics/strFac/strFac_${usic}_${trial}_${namestring}_T${Temp}.mode4.dat symmetric xyz 0 0
+list mode4
+
+isfs ./statistics/isfs/isfs_${usic}_${trial}_${namestring}_T${Temp}.mode4.dat ${waveindex} ${waveindex} xyz ${maxLenScale} 0
+list mode4
+
+
+
+msd ./statistics/msd/msd_${usic}_${trial}_${namestring}_T${Temp}.mode3.dat
+list mode3
+
+ngp ./statistics/ngp/ngp_${usic}_${trial}_${namestring}_T${Temp}.mode3.dat
+list mode3
+
+structure_factor ./statistics/strFac/strFac_${usic}_${trial}_${namestring}_T${Temp}.mode3.dat symmetric xyz 0 0
+list mode3
+
+isfs ./statistics/isfs/isfs_${usic}_${trial}_${namestring}_T${Temp}.mode3.dat ${waveindex} ${waveindex} xyz ${maxLenScale} 0
+list mode3
+
+
+
+msd ./statistics/msd/msd_${usic}_${trial}_${namestring}_T${Temp}.mode2.dat
+list mode2
+
+ngp ./statistics/ngp/ngp_${usic}_${trial}_${namestring}_T${Temp}.mode2.dat
+list mode2
+
+structure_factor ./statistics/strFac/strFac_${usic}_${trial}_${namestring}_T${Temp}.mode2.dat symmetric xyz 0 0
+list mode2
+
+isfs ./statistics/isfs/isfs_${usic}_${trial}_${namestring}_T${Temp}.mode2.dat ${waveindex} ${waveindex} xyz ${maxLenScale} 0
+list mode2
+
+
+
+msd ./statistics/msd/msd_${usic}_${trial}_${namestring}_T${Temp}.mode1.dat
+list mode1
+
+ngp ./statistics/ngp/ngp_${usic}_${trial}_${namestring}_T${Temp}.mode1.dat
+list mode1
+
+structure_factor ./statistics/strFac/strFac_${usic}_${trial}_${namestring}_T${Temp}.mode1.dat symmetric xyz 0 0
+list mode1
+
+isfs ./statistics/isfs/isfs_${usic}_${trial}_${namestring}_T${Temp}.mode1.dat ${waveindex} ${waveindex} xyz ${maxLenScale} 0
+list mode1
+

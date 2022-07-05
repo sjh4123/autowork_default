@@ -1,0 +1,13 @@
+    1 12.011 #CT "Alkane CH3-" 6 partial charge=-0.18
+    2 12.011 #CT "Alkane -CH2-" 6 partial charge=-0.12
+    3 12.011 #CT "Alkane >CH-" 6 partial charge=-0.06
+    4 1.008 #HC "Alkane H-C" 1 partial charge=0.06
+    5 12.011 #C "Ester -COOR" 6 partial charge=0.51
+    6 15.999 #O "Ester C=O" 8 partial charge=-0.43
+    7 15.999 #OS "Ester CO-O-R" 8 partial charge=-0.33
+    8 1.008 #HC "Ester -OCH<" 1 partial charge=0.03
+    9 12.011 #CT "Et Ester -OCH2R" 6 partial charge=0.19
+    10 14.007 #NT "Amine R3N" 7 partial charge=-0.63
+    11 12.011 #CT "Amine CH3-NR2" 6 partial charge=0.03
+    12 12.011 #CT "Amine RCH2-NR2" 6 partial charge=0.09
+    13 1.008 #HC "Amine H-C-N" 1 partial charge=0.06

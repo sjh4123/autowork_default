@@ -1,0 +1,71 @@
+import "oplsaa.lt"
+
+## transDecalin
+
+S007 inherits OPLSAA {
+
+    ## atom-id  mol-id  atom-type  charge  x  y  z
+
+    write("Data Atoms") {
+        $atom:Atom1 $mol:... @atom:82 0 0.106 5.597 3.452
+        $atom:Atom2 $mol:... @atom:82 0 0.615 5.609 2.017
+        $atom:Atom3 $mol:... @atom:81 0 0.571 4.335 4.207
+        $atom:Atom4 $mol:... @atom:81 0 0.483 2.998 3.473
+        $atom:Atom5 $mol:... @atom:81 0 0.321 3.005 1.961
+        $atom:Atom6 $mol:... @atom:81 0 0.17 4.348 1.25
+        $atom:Atom7 $mol:... @atom:81 0 0.551 6.859 4.217
+        $atom:Atom8 $mol:... @atom:81 0 0.395 8.201 3.505
+        $atom:Atom9 $mol:... @atom:81 0 0.219 8.207 1.994
+        $atom:Atom10 $mol:... @atom:81 0 0.153 6.869 1.259
+        $atom:Atom11 $mol:... @atom:85 0 -0.996 5.588 3.435
+        $atom:Atom12 $mol:... @atom:85 0 1.716 5.618 2.035
+        $atom:Atom13 $mol:... @atom:85 0 -0.007 4.246 5.135
+        $atom:Atom14 $mol:... @atom:85 0 1.615 4.461 4.532
+        $atom:Atom15 $mol:... @atom:85 0 -0.335 2.407 3.909
+        $atom:Atom16 $mol:... @atom:85 0 1.382 2.411 3.715
+        $atom:Atom17 $mol:... @atom:85 0 -0.548 2.38 1.709
+        $atom:Atom18 $mol:... @atom:85 0 1.167 2.461 1.517
+        $atom:Atom19 $mol:... @atom:85 0 -0.886 4.446 0.957
+        $atom:Atom20 $mol:... @atom:85 0 0.725 4.292 0.306
+        $atom:Atom21 $mol:... @atom:85 0 1.608 6.764 4.506
+        $atom:Atom22 $mol:... @atom:85 0 -0.001 6.915 5.163
+        $atom:Atom23 $mol:... @atom:85 0 1.266 8.827 3.748
+        $atom:Atom24 $mol:... @atom:85 0 -0.447 8.746 3.955
+        $atom:Atom25 $mol:... @atom:85 0 1.019 8.817 1.552
+        $atom:Atom26 $mol:... @atom:85 0 -0.694 8.775 1.762
+        $atom:Atom27 $mol:... @atom:85 0 0.744 6.963 0.34
+        $atom:Atom28 $mol:... @atom:85 0 -0.885 6.738 0.916
+    }
+    write('Data Bond List') {
+        $bond:Bond1 $atom:Atom1 $atom:Atom2
+        $bond:Bond2 $atom:Atom1 $atom:Atom3
+        $bond:Bond3 $atom:Atom1 $atom:Atom7
+        $bond:Bond4 $atom:Atom1 $atom:Atom11
+        $bond:Bond5 $atom:Atom2 $atom:Atom6
+        $bond:Bond6 $atom:Atom2 $atom:Atom10
+        $bond:Bond7 $atom:Atom2 $atom:Atom12
+        $bond:Bond8 $atom:Atom3 $atom:Atom4
+        $bond:Bond9 $atom:Atom3 $atom:Atom13
+        $bond:Bond10 $atom:Atom3 $atom:Atom14
+        $bond:Bond11 $atom:Atom4 $atom:Atom5
+        $bond:Bond12 $atom:Atom4 $atom:Atom15
+        $bond:Bond13 $atom:Atom4 $atom:Atom16
+        $bond:Bond14 $atom:Atom5 $atom:Atom6
+        $bond:Bond15 $atom:Atom5 $atom:Atom17
+        $bond:Bond16 $atom:Atom5 $atom:Atom18
+        $bond:Bond17 $atom:Atom6 $atom:Atom19
+        $bond:Bond18 $atom:Atom6 $atom:Atom20
+        $bond:Bond19 $atom:Atom7 $atom:Atom8
+        $bond:Bond20 $atom:Atom7 $atom:Atom21
+        $bond:Bond21 $atom:Atom7 $atom:Atom22
+        $bond:Bond22 $atom:Atom8 $atom:Atom9
+        $bond:Bond23 $atom:Atom8 $atom:Atom23
+        $bond:Bond24 $atom:Atom8 $atom:Atom24
+        $bond:Bond25 $atom:Atom9 $atom:Atom10
+        $bond:Bond26 $atom:Atom9 $atom:Atom25
+        $bond:Bond27 $atom:Atom9 $atom:Atom26
+        $bond:Bond28 $atom:Atom10 $atom:Atom27
+        $bond:Bond29 $atom:Atom10 $atom:Atom28
+    }
+} ## transDecalin
+

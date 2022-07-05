@@ -1,0 +1,80 @@
+Starting_Time    2015/11/28 00:33:37
+Final_Write_Time 2015/11/28 00:33:40
+
+tau_alpha Cutoffs (timeUnit: fs)
+------------------------------------------
+Regime_0 1000
+Regime_1 3162.28
+Regime_2 10000
+Regime_3 100000
+Regime_4 1e+06
+Regime_5 1e+07
+Regime_6 1e+08
+Regime_7 1e+09
+------------------------------------------
+Current_Regime 
+8 of 8
+
+<Compute Nodes Info>
+Compute_1: 8 9 
+
+System Unit:    real
+
+Quenching Rate: 10 units
+Equilibration:  10 tau_alpha
+Production:     10 tau_alpha
+
+Time Elapsed up to Current Regime         
+------------------------------------------
+Regime_0 1000  0 seconds
+Regime_1 3162.28  0 seconds
+Regime_2 10000  0 seconds
+Regime_3 100000  0 seconds
+Regime_4 1e+06  0 seconds
+Regime_5 1e+07  0 seconds
+Regime_6 1e+08  0 seconds
+Regime_7 1e+09  0 seconds
+
+Tg_extrp(trials) avg(Tg) stdev(Tg) stdev/avg 
+---------------------------------------------
+Regime_0 1000  0 0 0 0 0 0 nan
+Regime_1 3162.28  0 0 0 0 0 0 nan
+Regime_2 10000  0 0 0 0 0 0 nan
+Regime_3 100000  0 0 0 0 0 0 nan
+Regime_4 1e+06  0 0 0 0 0 0 nan
+Regime_5 1e+07  0 0 0 0 0 0 nan
+Regime_6 1e+08  0 0 0 0 0 0 nan
+Regime_7 1e+09  0 0 0 0 0 0 nan
+
+m_extrp(trials) avg(m) stdev(m) stdev/avg    
+---------------------------------------------
+Regime_0 1000  0 0 0 0 0 0 nan
+Regime_1 3162.28  0 0 0 0 0 0 nan
+Regime_2 10000  0 0 0 0 0 0 nan
+Regime_3 100000  0 0 0 0 0 0 nan
+Regime_4 1e+06  0 0 0 0 0 0 nan
+Regime_5 1e+07  0 0 0 0 0 0 nan
+Regime_6 1e+08  0 0 0 0 0 0 nan
+Regime_7 1e+09  0 0 0 0 0 0 nan
+
+Tg_compu(trials) avg(Tg) stdev(Tg) stdev/avg 
+---------------------------------------------
+Regime_0 1000  0 0 0 0 0 0 nan
+Regime_1 3162.28  0 0 0 0 0 0 nan
+Regime_2 10000  0 0 0 0 0 0 nan
+Regime_3 100000  0 0 0 0 0 0 nan
+Regime_4 1e+06  0 0 0 0 0 0 nan
+Regime_5 1e+07  0 0 0 0 0 0 nan
+Regime_6 1e+08  0 0 0 0 0 0 nan
+Regime_7 1e+09  0 0 0 0 0 0 nan
+
+m_compu(trials) avg(m) stdev(m) stdev/avg    
+---------------------------------------------
+Regime_0 1000  0 0 0 0 0 0 nan
+Regime_1 3162.28  0 0 0 0 0 0 nan
+Regime_2 10000  0 0 0 0 0 0 nan
+Regime_3 100000  0 0 0 0 0 0 nan
+Regime_4 1e+06  0 0 0 0 0 0 nan
+Regime_5 1e+07  0 0 0 0 0 0 nan
+Regime_6 1e+08  0 0 0 0 0 0 nan
+Regime_7 1e+09  0 0 0 0 0 0 nan

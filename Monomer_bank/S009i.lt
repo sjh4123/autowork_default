@@ -1,0 +1,25 @@
+import "oplsaa.lt"
+
+## AAPVC_i
+
+S009i inherits OPLSAA {
+
+    ## atom-id  mol-id  atom-type  charge  x  y  z
+
+    write("Data Atoms") {
+        $atom:C1 $mol:... @atom:81 0 -3.715 1.854 -0.353
+        $atom:C2 $mol:... @atom:803 0 -2.207 1.716 -0.287
+        $atom:C3 $mol:... @atom:800 0 -1.417 3.301 -0.167
+        $atom:C4 $mol:... @atom:85 0 -4.172 0.866 -0.244
+        $atom:C5 $mol:... @atom:85 0 -4.124 2.314 -1.261
+        $atom:C6 $mol:... @atom:802 0 -1.762 1.162 -1.126
+    }
+    write('Data Bond List') {
+        $bond:Bond1 $atom:C1 $atom:C4
+        $bond:Bond2 $atom:C1 $atom:C5
+        $bond:Bond3 $atom:C1 $atom:C2
+        $bond:Bond4 $atom:C2 $atom:C3
+        $bond:Bond5 $atom:C2 $atom:C6
+    }
+} ## AAPVC_i
+

@@ -1,0 +1,41 @@
+import "oplsaa.lt"
+
+## AAGlycerol
+
+S010 inherits OPLSAA {
+
+    ## atom-id  mol-id  atom-type  charge  x  y  z
+
+    write("Data Atoms") {
+        $atom:C1 $mol:... @atom:99 0 -3.203 1.779 0.085
+        $atom:C2 $mol:... @atom:100 0 -1.929 2.54 -0.346
+        $atom:C3 $mol:... @atom:99 0 -0.575 1.979 0.137
+        $atom:C4 $mol:... @atom:96 0 -4.178 2.6 0.732
+        $atom:C5 $mol:... @atom:96 0 -2.006 3.943 -0.061
+        $atom:C6 $mol:... @atom:96 0 0.42 2.996 -0.079
+        $atom:C7 $mol:... @atom:85 0 -2.998 0.922 0.732
+        $atom:C8 $mol:... @atom:85 0 -3.681 1.391 -0.823
+        $atom:C9 $mol:... @atom:85 0 -1.881 2.463 -1.437
+        $atom:C10 $mol:... @atom:85 0 -0.297 1.102 -0.459
+        $atom:C11 $mol:... @atom:85 0 -0.553 1.706 1.197
+        $atom:C12 $mol:... @atom:97 0 -5.045 2.191 0.608
+        $atom:C13 $mol:... @atom:97 0 -1.085 4.243 0.004
+        $atom:C14 $mol:... @atom:97 0 1.264 2.555 -0.289
+    }
+    write('Data Bond List') {
+        $bond:Bond1 $atom:C1 $atom:C2
+        $bond:Bond2 $atom:C1 $atom:C4
+        $bond:Bond3 $atom:C1 $atom:C7
+        $bond:Bond4 $atom:C1 $atom:C8
+        $bond:Bond5 $atom:C2 $atom:C3
+        $bond:Bond6 $atom:C2 $atom:C5
+        $bond:Bond7 $atom:C2 $atom:C9
+        $bond:Bond8 $atom:C3 $atom:C6
+        $bond:Bond9 $atom:C3 $atom:C10
+        $bond:Bond10 $atom:C3 $atom:C11
+        $bond:Bond11 $atom:C4 $atom:C12
+        $bond:Bond12 $atom:C5 $atom:C13
+        $bond:Bond13 $atom:C6 $atom:C14
+    }
+} ## AAGlycerol
+

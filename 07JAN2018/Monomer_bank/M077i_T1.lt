@@ -1,0 +1,89 @@
+import "oplsaa.lt"		# <-- defines the "OPLSAA" force field
+
+M077i_T1 inherits OPLSAA {
+
+	# atom-id	mol-id	atom-type	charge	x	y	z
+
+	write("Data Atoms") {
+		$atom:C1 $mol:... @atom:81 0.00 -2.183 2.3 -2.454
+		$atom:C2 $mol:... @atom:84 0.00 -2.046 2.135 -1.026
+		$atom:C3 $mol:... @atom:80 0.00 -0.992527 1.20927 -0.512834
+		$atom:C4 $mol:... @atom:406 0.00 -3.00969 2.69371 -0.0470013
+		$atom:C5 $mol:... @atom:431 0.00 -5.27983 3.35524 0.113255
+		$atom:C6 $mol:... @atom:81 0.00 -5.32576 4.83222 0.485427
+		$atom:C7 $mol:... @atom:81 0.00 -6.73809 5.23717 0.903908
+		$atom:C8 $mol:... @atom:81 0.00 -6.79826 6.68944 1.36485
+		$atom:C9 $mol:... @atom:124 0.00 -8.23596 7.12641 1.63648
+		$atom:C10 $mol:... @atom:141 0.00 -9.40334 9.06297 2.38698
+		$atom:C11 $mol:... @atom:90 0.00 -10.6621 8.47014 2.26609
+		$atom:C12 $mol:... @atom:90 0.00 -11.8116 9.18972 2.60544
+		$atom:C13 $mol:... @atom:90 0.00 -11.7096 10.502 3.06636
+		$atom:C14 $mol:... @atom:90 0.00 -10.4559 11.0975 3.18789
+		$atom:C15 $mol:... @atom:90 0.00 -9.30949 10.378 2.84928
+		$atom:O16 $mol:... @atom:407 0.00 -2.83652 2.70073 1.16077
+		$atom:O17 $mol:... @atom:408 0.00 -4.13476 3.07261 -0.698471
+		$atom:O18 $mol:... @atom:121 0.00 -8.20409 8.47689 2.09175
+		$atom:H19 $mol:... @atom:85 0.00 -3.171 2.416 -2.884
+		$atom:H20 $mol:... @atom:85 0.00 -1.352 2.057 -3.107
+		$atom:H21 $mol:... @atom:85 0.00 -0.697478 1.45364 0.511675
+		$atom:H22 $mol:... @atom:85 0.00 -1.36073 0.178855 -0.527102
+		$atom:H23 $mol:... @atom:85 0.00 -0.0890411 1.25719 -1.13083
+		$atom:H24 $mol:... @atom:410 0.00 -6.15158 3.08817 -0.494366
+		$atom:H25 $mol:... @atom:410 0.00 -5.30831 2.71568 1.00417
+		$atom:H26 $mol:... @atom:85 0.00 -4.61345 5.02446 1.29744
+		$atom:H27 $mol:... @atom:85 0.00 -4.99514 5.44313 -0.362947
+		$atom:H28 $mol:... @atom:85 0.00 -7.41578 5.0965 0.0520585
+		$atom:H29 $mol:... @atom:85 0.00 -7.09195 4.5814 1.70815
+		$atom:H30 $mol:... @atom:85 0.00 -6.19669 6.82275 2.27223
+		$atom:H31 $mol:... @atom:85 0.00 -6.35647 7.35164 0.609556
+		$atom:H32 $mol:... @atom:127 0.00 -8.81592 7.05565 0.707883
+		$atom:H33 $mol:... @atom:127 0.00 -8.6783 6.47921 2.40396
+		$atom:H34 $mol:... @atom:91 0.00 -10.7846 7.45269 1.91144
+		$atom:H35 $mol:... @atom:91 0.00 -12.7898 8.72564 2.50907
+		$atom:H36 $mol:... @atom:91 0.00 -12.6044 11.0594 3.32846
+		$atom:H37 $mol:... @atom:91 0.00 -10.3682 12.1192 3.5464
+		$atom:H38 $mol:... @atom:91 0.00 -8.33201 10.8441 2.94515
+	}
+
+	write('Data Bond List') {
+		$bond:1 $atom:C1 $atom:C2
+		$bond:2 $atom:C1 $atom:H19
+		$bond:3 $atom:C1 $atom:H20
+		$bond:4 $atom:C2 $atom:C4
+		$bond:5 $atom:C2 $atom:C3
+		$bond:6 $atom:C3 $atom:H21
+		$bond:7 $atom:C3 $atom:H22
+		$bond:8 $atom:C3 $atom:H23
+		$bond:9 $atom:C4 $atom:O16
+		$bond:10 $atom:C4 $atom:O17
+		$bond:11 $atom:C5 $atom:O17
+		$bond:12 $atom:C5 $atom:C6
+		$bond:13 $atom:C5 $atom:H24
+		$bond:14 $atom:C5 $atom:H25
+		$bond:15 $atom:C6 $atom:C7
+		$bond:16 $atom:C6 $atom:H26
+		$bond:17 $atom:C6 $atom:H27
+		$bond:18 $atom:C7 $atom:C8
+		$bond:19 $atom:C7 $atom:H28
+		$bond:20 $atom:C7 $atom:H29
+		$bond:21 $atom:C8 $atom:C9
+		$bond:22 $atom:C8 $atom:H30
+		$bond:23 $atom:C8 $atom:H31
+		$bond:24 $atom:C9 $atom:O18
+		$bond:25 $atom:C9 $atom:H32
+		$bond:26 $atom:C9 $atom:H33
+		$bond:27 $atom:C10 $atom:O18
+		$bond:28 $atom:C10 $atom:C11
+		$bond:29 $atom:C10 $atom:C15
+		$bond:30 $atom:C11 $atom:C12
+		$bond:31 $atom:C11 $atom:H34
+		$bond:32 $atom:C12 $atom:C13
+		$bond:33 $atom:C12 $atom:H35
+		$bond:34 $atom:C13 $atom:C14
+		$bond:35 $atom:C13 $atom:H36
+		$bond:36 $atom:C14 $atom:C15
+		$bond:37 $atom:C14 $atom:H37
+		$bond:38 $atom:C15 $atom:H38
+	}
+
+}

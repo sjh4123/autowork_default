@@ -1,0 +1,187 @@
+Started  2015/11/28 00:33:37
+Finished 2015/11/28 00:33:40
+
+General Info
+------------------------------------------
+System_Unit               real
+
+<Structure>
+Backbone_type             0 (linear)
+SideGroup_type            5 (stdFENE)
+Monomers_Per_Chain        20
+Number_of_Chains          80
+Number_of_Beads           1600
+
+<Simulation>
+QuenchRate                10
+Equilibration_Blocks      10
+Production_Blocks         10
+
+<Analysis>
+Relaxation_Model          COOP
+Extrapolation_Model       COOP
+Wave_Number(q)            0
+------------------------------------------
+
+
+Extrapolated Tg [@(1e+17)timeUnit]
+------------------------------------------
+0
+0
+0
+0
+
+mean(Tg)          0
+stdev(Tg)         0
+stdev/avg         nan
+------------------------------------------
+
+Tg(trials) avg(Tg) stdev(Tg) stdev/avg
+------------------------------------------
+Regime_0 1000  0 0 0 0 0 0 nan
+Regime_1 3162.28  0 0 0 0 0 0 nan
+Regime_2 10000  0 0 0 0 0 0 nan
+Regime_3 100000  0 0 0 0 0 0 nan
+Regime_4 1e+06  0 0 0 0 0 0 nan
+Regime_5 1e+07  0 0 0 0 0 0 nan
+Regime_6 1e+08  0 0 0 0 0 0 nan
+Regime_7 1e+09  0 0 0 0 0 0 nan
+------------------------------------------
+
+Fragility @ Tg_extrp                      
+------------------------------------------
+0
+0
+0
+0
+
+mean(m_extrp)   0
+stdev(m_extrp)  0
+stdev/avg       nan
+------------------------------------------
+
+m(trials) avg(m) stdev(m) stdev/avg
+------------------------------------------
+Regime_0 1000  0 0 0 0 0 0 nan
+Regime_1 3162.28  0 0 0 0 0 0 nan
+Regime_2 10000  0 0 0 0 0 0 nan
+Regime_3 100000  0 0 0 0 0 0 nan
+Regime_4 1e+06  0 0 0 0 0 0 nan
+Regime_5 1e+07  0 0 0 0 0 0 nan
+Regime_6 1e+08  0 0 0 0 0 0 nan
+Regime_7 1e+09  0 0 0 0 0 0 nan
+------------------------------------------
+
+
+
+Computational Tg [@(1e+09)timeUnit]
+------------------------------------------
+0
+0
+0
+0
+
+mean(Tg_compu)    0
+stdev(Tg_compu)   0
+stdev/avg         nan
+------------------------------------------
+
+Tg(trials) avg(Tg) stdev(Tg) stdev/avg
+------------------------------------------
+Regime_0 1000  0 0 0 0 0 0 nan
+Regime_1 3162.28  0 0 0 0 0 0 nan
+Regime_2 10000  0 0 0 0 0 0 nan
+Regime_3 100000  0 0 0 0 0 0 nan
+Regime_4 1e+06  0 0 0 0 0 0 nan
+Regime_5 1e+07  0 0 0 0 0 0 nan
+Regime_6 1e+08  0 0 0 0 0 0 nan
+Regime_7 1e+09  0 0 0 0 0 0 nan
+------------------------------------------
+
+Fragility @ Tg_compu                      
+------------------------------------------
+0
+0
+0
+0
+
+mean(m_compu)   0
+stdev(m_compu)  0
+stdev/avg       nan
+------------------------------------------
+
+m(trials) avg(m) stdev(m) stdev/avg
+------------------------------------------
+Regime_0 1000  0 0 0 0 0 0 nan
+Regime_1 3162.28  0 0 0 0 0 0 nan
+Regime_2 10000  0 0 0 0 0 0 nan
+Regime_3 100000  0 0 0 0 0 0 nan
+Regime_4 1e+06  0 0 0 0 0 0 nan
+Regime_5 1e+07  0 0 0 0 0 0 nan
+Regime_6 1e+08  0 0 0 0 0 0 nan
+Regime_7 1e+09  0 0 0 0 0 0 nan
+------------------------------------------
+
+
+
+Number of T's Simulated in Each Regime    
+------------------------------------------
+Regime_0 1000  8
+Regime_1 3162.28  8
+Regime_2 10000  8
+Regime_3 100000  8
+Regime_4 1e+06  8
+Regime_5 1e+07  8
+Regime_6 1e+08  4
+Regime_7 1e+09  4
+------------------------------------------
+
+Timestep size in each regime (timeUnit: fs)
+------------------------------------------
+ts[0]=  1
+ts[1]=  1
+ts[2]=  1
+ts[3]=  1
+ts[4]=  1
+ts[5]=  1
+ts[6]=  1
+ts[7]=  1
+------------------------------------------
+
+tau_alpha Cutoffs (timeUnit: fs)
+------------------------------------------
+Regime_0 1000
+Regime_1 3162.28
+Regime_2 10000
+Regime_3 100000
+Regime_4 1e+06
+Regime_5 1e+07
+Regime_6 1e+08
+Regime_7 1e+09
+------------------------------------------
+
+Equilibration Times (timeUnit: fs)
+------------------------------------------
+Regime_0 10000
+Regime_1 31622.8
+Regime_2 100000
+Regime_3 1e+06
+Regime_4 1e+07
+Regime_5 1e+08
+Regime_6 1e+09
+Regime_7 1e+10
+------------------------------------------
+
+Time Elapsed for Each Temperature Regime  
+------------------------------------------
+Regime_0 1000  0 seconds
+Regime_1 3162.28  0 seconds
+Regime_2 10000  0 seconds
+Regime_3 100000  0 seconds
+Regime_4 1e+06  0 seconds
+Regime_5 1e+07  0 seconds
+Regime_6 1e+08  0 seconds
+Regime_7 1e+09  0 seconds
+------------------------------------------
+
+Total Elapsed Time: 3 seconds

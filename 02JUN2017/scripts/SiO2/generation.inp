@@ -1,0 +1,81 @@
+
+#package gpu force/neigh ${GPU} ${GPU} 1.0
+
+# ----------------- Init Section -----------------
+units metal
+atom_style full
+
+# ----------------- Atom Definition Section -----------------
+read_data ./lammps_inputs/start_data/input_${trial}.dat
+
+#---- Set charges --------------- 
+set type 1 charge 1.3
+set type 2 charge -0.65
+
+# ----------------------------------
+## PAIR INTERACTION
+# ----------------------------------
+pair_style hybrid/overlay morse 10.000000 coul/long 10.000000
+pair_coeff 1 1 morse 0.007837 2.044577 3.759800 10.000000
+pair_coeff 1 2 morse 2.032808 2.651781 1.628000 10.000000
+pair_coeff 2 2 morse 0.023701 1.373147 3.791000 10.000000
+pair_coeff * * coul/long
+
+kspace_style pppm 0.0001
+pair_modify shift yes
+neigh_modify every 1 check yes
+
+minimize 1.0e-5 1.0e-7 1000 10000
+
+##----------------------------
+## DUMP
+# ----------------------------------
+dump 1 all xyz 1000 ./generation/trajectory/trajectory_${usic}_${trial}_${namestring}_T${Temp}.gen.xyz
+dump_modify 1 append yes
+
+# ----------------------------------
+## FIX
+# ----------------------------------
+fix 1 all momentum 1000 linear 1 1 1 angular
+
+# ----------------------------------
+## START WITH VERY HIGH TEMPERATURE
+# ----------------------------------
+variable T equal ${Temp}/1000.0
+
+fix 2 all npt temp ${T} ${T} 0.1 iso 1.0 1.0 1.0 drag 1.0
+
+# ----------------------------------
+## THERMO_STYLE
+# ----------------------------------
+thermo_style custom step temp press pe ke etotal ebond eangle epair lx ly lz vol density dt time cpu tpcpu spcpu
+
+# ----------------------------------
+## RUN_STYLE
+# ----------------------------------
+run_style verlet
+
+# ----------------------------------
+## VELOCITY
+# ----------------------------------
+velocity all create ${T} ${vseed} mom yes rot yes dist gaussian
+
+# ----------------------------------
+## Saving Frequency
+# ----------------------------------
+variable ts_save equal floor(${steps_gen}*0.02)
+dump_modify 1 every ${ts_save}
+
+# ----------------------------------
+## GENERATION RUN
+# ----------------------------------
+timestep ${ts}
+thermo ${ts_save}
+run ${steps_gen}
+# ----------------------------------
+
+# ----------------------------------
+## GENERATION RESTART
+# ----------------------------------
+write_restart ./generation/restart/restart_${usic}_${trial}_${namestring}_T${Temp}.gen.restart
+

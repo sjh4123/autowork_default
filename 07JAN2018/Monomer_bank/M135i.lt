@@ -1,0 +1,56 @@
+import "oplsaa.lt"		# <-- defines the "OPLSAA" force field
+
+M135i inherits OPLSAA {
+
+	# atom-id	mol-id	atom-type	charge	x	y	z
+
+	write("Data Atoms") {
+		$atom:C1 $mol:... @atom:81 0.00 -2.937 2.065 -1.392
+		$atom:C2 $mol:... @atom:84 0.00 -2.392 2.843 -0.304
+		$atom:C3 $mol:... @atom:80 0.00 -3.310 3.757 0.440
+		$atom:C4 $mol:... @atom:177 0.00 -0.945 2.857 0.034
+		$atom:C5 $mol:... @atom:186 0.00 1.099 1.480 0.025
+		$atom:C6 $mol:... @atom:81 0.00 1.477 0.004 0.037
+		$atom:C7 $mol:... @atom:801 0.00 2.985 -0.178 0.063
+		$atom:O8 $mol:... @atom:178 0.00 -0.389 3.858 0.469
+		$atom:N9 $mol:... @atom:180 0.00 -0.329 1.645 -0.143
+		$atom:CL10 $mol:... @atom:800 0.00 3.393 -1.911 0.064
+		$atom:H11 $mol:... @atom:85 0.00 -4.011 1.980 -1.514
+		$atom:H12 $mol:... @atom:85 0.00 -2.283 1.636 -2.142
+		$atom:H13 $mol:... @atom:85 0.00 -2.789 4.333 1.211
+		$atom:H14 $mol:... @atom:85 0.00 -4.099 3.182 0.935
+		$atom:H15 $mol:... @atom:85 0.00 -3.782 4.468 -0.246
+		$atom:H16 $mol:... @atom:85 0.00 1.406 1.971 0.956
+		$atom:H17 $mol:... @atom:85 0.00 1.586 2.002 -0.805
+		$atom:H18 $mol:... @atom:85 0.00 1.058 -0.489 -0.850
+		$atom:H19 $mol:... @atom:85 0.00 1.020 -0.481 0.910
+		$atom:H20 $mol:... @atom:802 0.00 3.427 0.269 0.958
+		$atom:H21 $mol:... @atom:802 0.00 3.452 0.269 -0.820
+		$atom:H22 $mol:... @atom:183 0.00 -0.870 0.875 -0.513
+	}
+
+	write('Data Bond List') {
+		$bond:1 $atom:C1 $atom:C2
+		$bond:2 $atom:C1 $atom:H11
+		$bond:3 $atom:C1 $atom:H12
+		$bond:4 $atom:C2 $atom:C4
+		$bond:5 $atom:C2 $atom:C3
+		$bond:6 $atom:C3 $atom:H13
+		$bond:7 $atom:C3 $atom:H14
+		$bond:8 $atom:C3 $atom:H15
+		$bond:9 $atom:C4 $atom:O8
+		$bond:10 $atom:C4 $atom:N9
+		$bond:11 $atom:C5 $atom:N9
+		$bond:12 $atom:C5 $atom:C6
+		$bond:13 $atom:C5 $atom:H16
+		$bond:14 $atom:C5 $atom:H17
+		$bond:15 $atom:C6 $atom:C7
+		$bond:16 $atom:C6 $atom:H18
+		$bond:17 $atom:C6 $atom:H19
+		$bond:18 $atom:C7 $atom:CL10
+		$bond:19 $atom:C7 $atom:H20
+		$bond:20 $atom:C7 $atom:H21
+		$bond:21 $atom:N9 $atom:H22
+	}
+
+}

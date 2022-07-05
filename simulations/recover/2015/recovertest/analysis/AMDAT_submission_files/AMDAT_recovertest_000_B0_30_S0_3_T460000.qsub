@@ -1,0 +1,12 @@
+#!/bin/bash
+#$ -V
+#$ -cwd
+#$ -j y
+#$ -pe orte 1
+#$ -p 0
+#$ -hold_jid prd_recovertest_000_B0_30_S0_3_T460000
+#$ -N amdat_recovertest_000_B0_30_S0_3_T460000
+#$ -o ./AMDAT_submission_files/cluster_out/out_recovertest_000_B0_30_S0_3_T460000.amdat.o
+#$ -q all.q@compute-1-8.local
+
+mpirun -np 1 /home/jh148/AMDAT89/AMDAT -i ./AMDAT_inputs/amdat.inp -t ./AMDAT_recovertest_000_B0_30_S0_3_T460000.tmp -c usic recovertest -c trial 000 -c namestring B0_30_S0_3 -c Regime 0 -c n_prd_blocks 10 -c blocksize 39 -c n_poly 24 -c maxLenScale 55 -c path_prdcustom /Users/SJH/Dropbox/UA_Research/Codes/cppWork/cppWork/simulations/recover/2015/recovertest/simulations/production/trajectory/new_trajectory_recovertest_000_B0_30_S0_3_T460000.prd.custom -c n_heavy 323  -c n_light 438  -c ts 1 -c Temp 460000 -c waveindex 23 > ./screen/recovertest_000_B0_30_S0_3_T460000.amdat.screen

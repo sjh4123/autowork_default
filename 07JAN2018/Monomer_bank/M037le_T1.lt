@@ -1,0 +1,46 @@
+import "oplsaa.lt"		# <-- defines the "OPLSAA" force field
+
+M037le_T1 inherits OPLSAA {
+
+	# atom-id	mol-id	atom-type	charge	x	y	z
+
+	write("Data Atoms") {
+		$atom:C1 $mol:... @atom:80 0.00 -4.373 -0.419 -1.07
+		$atom:C2 $mol:... @atom:84 0.00 -3.745 0.555 -0.133
+		$atom:C3 $mol:... @atom:80 0.00 -2.35909 0.302194 0.352963
+		$atom:C4 $mol:... @atom:406 0.00 -4.50522 1.7004 0.391497
+		$atom:C5 $mol:... @atom:431 0.00 -6.55063 2.82923 0.221005
+		$atom:O6 $mol:... @atom:407 0.00 -4.10596 2.42823 1.28629
+		$atom:O7 $mol:... @atom:408 0.00 -5.68541 1.80498 -0.255794
+		$atom:O8 $mol:... @atom:96 0.00 -6.47084 3.97968 -0.601852
+		$atom:H9 $mol:... @atom:85 0.00 -5.422 -0.168 -1.26
+		$atom:H10 $mol:... @atom:85 0.00 -3.852 -0.424 -2.032
+		$atom:H11 $mol:... @atom:85 0.00 -2.01248 1.06409 1.05756
+		$atom:H12 $mol:... @atom:85 0.00 -2.30725 -0.667228 0.858613
+		$atom:H13 $mol:... @atom:85 0.00 -1.66028 0.287181 -0.48993
+		$atom:H14 $mol:... @atom:410 0.00 -7.57101 2.44187 0.151539
+		$atom:H15 $mol:... @atom:410 0.00 -6.38013 3.10111 1.26813
+		$atom:H16 $mol:... @atom:97 0.00 -5.72558 4.49806 -0.254402
+		$atom:H17 $mol:... @atom:85 0.00 -4.348 -1.429 -0.649
+	}
+
+	write('Data Bond List') {
+		$bond:1 $atom:C1 $atom:C2
+		$bond:2 $atom:C1 $atom:H9
+		$bond:3 $atom:C1 $atom:H17
+		$bond:4 $atom:C1 $atom:H10
+		$bond:5 $atom:C2 $atom:C4
+		$bond:6 $atom:C2 $atom:C3
+		$bond:7 $atom:C3 $atom:H11
+		$bond:8 $atom:C3 $atom:H12
+		$bond:9 $atom:C3 $atom:H13
+		$bond:10 $atom:C4 $atom:O6
+		$bond:11 $atom:C4 $atom:O7
+		$bond:12 $atom:C5 $atom:O7
+		$bond:13 $atom:C5 $atom:O8
+		$bond:14 $atom:C5 $atom:H14
+		$bond:15 $atom:C5 $atom:H15
+		$bond:16 $atom:O8 $atom:H16
+	}
+
+}

@@ -1,0 +1,71 @@
+import "oplsaa.lt"
+
+## cisDecalin
+
+S006 inherits OPLSAA {
+
+    ## atom-id  mol-id  atom-type  charge  x  y  z
+
+    write("Data Atoms") {
+        $atom:Atom1 $mol:... @atom:82 0 -1.32 3.433 -0.431
+        $atom:Atom2 $mol:... @atom:82 0 -1.263 1.889 -0.426
+        $atom:Atom3 $mol:... @atom:81 0 -2.553 4.032 0.26
+        $atom:Atom4 $mol:... @atom:81 0 -3.876 3.354 -0.031
+        $atom:Atom5 $mol:... @atom:81 0 -3.851 1.835 -0.034
+        $atom:Atom6 $mol:... @atom:81 0 -2.496 1.181 0.16
+        $atom:Atom7 $mol:... @atom:81 0 -0.08 4.138 0.144
+        $atom:Atom8 $mol:... @atom:81 0 1.273 3.489 -0.089
+        $atom:Atom9 $mol:... @atom:81 0 1.294 1.968 -0.094
+        $atom:Atom10 $mol:... @atom:81 0 -0.021 1.306 0.266
+        $atom:Atom11 $mol:... @atom:85 0 -1.384 3.722 -1.492
+        $atom:Atom12 $mol:... @atom:85 0 -1.202 1.591 -1.483
+        $atom:Atom13 $mol:... @atom:85 0 -2.641 5.088 -0.037
+        $atom:Atom14 $mol:... @atom:85 0 -2.403 4.04 1.347
+        $atom:Atom15 $mol:... @atom:85 0 -4.262 3.702 -0.997
+        $atom:Atom16 $mol:... @atom:85 0 -4.608 3.696 0.713
+        $atom:Atom17 $mol:... @atom:85 0 -4.306 1.477 -0.965
+        $atom:Atom18 $mol:... @atom:85 0 -4.514 1.471 0.764
+        $atom:Atom19 $mol:... @atom:85 0 -2.545 0.167 -0.27
+        $atom:Atom20 $mol:... @atom:85 0 -2.353 1.026 1.237
+        $atom:Atom21 $mol:... @atom:85 0 -0.202 4.265 1.228
+        $atom:Atom22 $mol:... @atom:85 0 -0.041 5.16 -0.263
+        $atom:Atom23 $mol:... @atom:85 0 1.956 3.849 0.692
+        $atom:Atom24 $mol:... @atom:85 0 1.702 3.85 -1.031
+        $atom:Atom25 $mol:... @atom:85 0 2.06 1.62 0.612
+        $atom:Atom26 $mol:... @atom:85 0 1.624 1.622 -1.079
+        $atom:Atom27 $mol:... @atom:85 0 -0.146 1.344 1.353
+        $atom:Atom28 $mol:... @atom:85 0 0.055 0.237 0.007
+    }
+    write('Data Bond List') {
+        $bond:Bond1 $atom:Atom1 $atom:Atom2
+        $bond:Bond2 $atom:Atom1 $atom:Atom3
+        $bond:Bond3 $atom:Atom1 $atom:Atom7
+        $bond:Bond4 $atom:Atom1 $atom:Atom11
+        $bond:Bond5 $atom:Atom2 $atom:Atom6
+        $bond:Bond6 $atom:Atom2 $atom:Atom10
+        $bond:Bond7 $atom:Atom2 $atom:Atom12
+        $bond:Bond8 $atom:Atom3 $atom:Atom4
+        $bond:Bond9 $atom:Atom3 $atom:Atom13
+        $bond:Bond10 $atom:Atom3 $atom:Atom14
+        $bond:Bond11 $atom:Atom4 $atom:Atom5
+        $bond:Bond12 $atom:Atom4 $atom:Atom15
+        $bond:Bond13 $atom:Atom4 $atom:Atom16
+        $bond:Bond14 $atom:Atom5 $atom:Atom6
+        $bond:Bond15 $atom:Atom5 $atom:Atom17
+        $bond:Bond16 $atom:Atom5 $atom:Atom18
+        $bond:Bond17 $atom:Atom6 $atom:Atom19
+        $bond:Bond18 $atom:Atom6 $atom:Atom20
+        $bond:Bond19 $atom:Atom7 $atom:Atom8
+        $bond:Bond20 $atom:Atom7 $atom:Atom21
+        $bond:Bond21 $atom:Atom7 $atom:Atom22
+        $bond:Bond22 $atom:Atom8 $atom:Atom9
+        $bond:Bond23 $atom:Atom8 $atom:Atom23
+        $bond:Bond24 $atom:Atom8 $atom:Atom24
+        $bond:Bond25 $atom:Atom9 $atom:Atom10
+        $bond:Bond26 $atom:Atom9 $atom:Atom25
+        $bond:Bond27 $atom:Atom9 $atom:Atom26
+        $bond:Bond28 $atom:Atom10 $atom:Atom27
+        $bond:Bond29 $atom:Atom10 $atom:Atom28
+    }
+} ## cisDecalin
+

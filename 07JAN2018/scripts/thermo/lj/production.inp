@@ -1,0 +1,91 @@
+# LAMMPS Script for Production (Exponential Timestep)
+
+if "${is_GPU} == 1" then "package gpu force/neigh ${GPU} ${GPU} -1.0"
+
+# ----------------------------------
+## READ_RESTART
+# ----------------------------------
+read_restart ./production/restart/restart_${usic}_${trial}_${namestring}_T${Temp}.prd.restart
+
+reset_timestep 0
+
+# ----------------------------------
+## PAIR
+# ----------------------------------
+neigh_modify delay 1 every 1 check yes
+
+# ----------------------------------
+## DUMP
+# ----------------------------------
+#dump 1 all custom 1 ./production/trajectory/trajectory_${usic}_${trial}_${namestring}_T${Temp}.prd.custom type x y z ix iy iz
+#dump_modify 1 first no sort id
+
+# ----------------------------------
+## COMPUTE
+# ----------------------------------
+#compute 1 polymer gyration/molecule
+
+# ----------------------------------
+## FIX
+# ----------------------------------
+fix 1 all momentum 2000 linear 1 1 1 angular
+
+variable T equal ${Temp}/1000000.0
+
+fix 2 all npt temp ${T} ${T} 2 iso 0 0 2
+
+
+# ----------------------------------
+## THERMO_STYLE
+# ----------------------------------
+thermo_style custom step temp press pe ke etotal ebond eangle epair lx ly lz vol density dt time cpu tpcpu spcpu
+
+# ----------------------------------
+## RUN_STYLE
+# ----------------------------------
+run_style verlet
+
+# ----------------------------------
+## TIMESTEP
+# ----------------------------------
+timestep ${ts}
+
+
+variable thermo equal 50
+thermo ${thermo} 
+variable run equal ${thermo}*1000
+run ${run}
+
+variable thermo equal 100
+thermo ${thermo} 
+variable run equal ${thermo}*1000
+run ${run}
+
+variable thermo equal 200
+thermo ${thermo} 
+variable run equal ${thermo}*1000
+run ${run}
+
+variable thermo equal 500
+thermo ${thermo} 
+variable run equal ${thermo}*1000
+run ${run}
+
+variable thermo equal 1000
+thermo ${thermo} 
+variable run equal ${thermo}*1000
+run ${run}
+
+variable thermo equal 2000
+thermo ${thermo} 
+variable run equal ${thermo}*1000
+run ${run}
+
+variable thermo equal 5000
+thermo ${thermo}
+variable run equal ${thermo}*1000
+run ${run}
+
+
+
+

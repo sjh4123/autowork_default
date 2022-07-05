@@ -1,0 +1,27 @@
+    pair_coeff 1 1 lj/cut/coul/long 0.07 3.55
+    pair_coeff 2 2 lj/cut/coul/long 0.03 2.42
+    pair_coeff 3 3 lj/cut/coul/long 0.07 3.55
+    bond_coeff 1 harmonic 469.0 1.4
+    bond_coeff 2 harmonic 367.0 1.08
+    bond_coeff 3 harmonic 469.0 1.4
+    bond_coeff 4 harmonic 385.0 1.46
+    angle_coeff 1 harmonic 63.0 120.0
+    angle_coeff 2 harmonic 35.0 120.0
+    angle_coeff 3 harmonic 35.0 120.0
+    angle_coeff 4 harmonic 63.0 120.0
+    angle_coeff 5 harmonic 63.0 120.0
+    angle_coeff 6 harmonic 63.0 120.0
+    dihedral_coeff 1 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff 2 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff 3 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff 4 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff 5 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff 6 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff 7 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff 8 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff 9 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff 10 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff 11 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff 12 opls 0.0 7.25 0.0 0.0
+    dihedral_coeff 13 opls 0.0 2.17 0.0 0.0
+    improper_coeff 1 harmonic 2.5 180 

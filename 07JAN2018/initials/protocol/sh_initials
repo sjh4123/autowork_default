@@ -1,0 +1,107 @@
+EXECUTABLE=./AUTOWORK
+
+FOLDER1=archive
+FOLDER2=headnode
+
+#xtauA=(10 15 20 30 50 100 200 500 750 1000 2500 5000 7500 10000);
+xtauA=(1);
+
+for i in ${xtauA[@]}; do
+
+## AA.PIB: 9 systems
+
+if [ ${FOLDER1} == "archive" ]; then
+    ${EXECUTABLE} -i initial_AAPIB03.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPIB05.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPIB10.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPIB15.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPIB20.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPIB30.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPIB50.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPIB75.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPIB100.inp -var logtb 2.85;
+fi;
+
+## AA.PS: 12 systems
+
+if [ ${FOLDER1} == "archive" ]; then
+    ${EXECUTABLE} -i initial_AAPS03.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPS05.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPS10.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPS15.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPS20.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPS30.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPS50.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPS60.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPS75.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPS100.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPS200.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPS400.inp -var logtb 2.85;
+fi;
+
+## AA.PVC: 6 systems
+
+if [ ${FOLDER1} == "archive" ]; then
+    ${EXECUTABLE} -i initial_AAPVC10.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPVC20.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPVC30.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPVC50.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPVC75.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPVC100.inp -var logtb 2.85;
+fi;
+
+## AA.PEI: 1 system
+
+if [ ${FOLDER1} == "archive" ]; then
+    ${EXECUTABLE} -i initial_AAPEI10.inp -var logtb 2.85;
+fi;  
+
+## AA.Small Organics: 3 system
+
+if [ ${FOLDER1} == "archive" ]; then
+    ${EXECUTABLE} -i initial_AAGlycerol.inp -var logtb 2.45;
+    ${EXECUTABLE} -i initial_AAGlucose.inp -var logtb 2.45;
+    ${EXECUTABLE} -i initial_AATrehalose.inp -var logtb 2.45;
+fi; 
+  
+## AA.Acrylate: 9 systems
+
+if [ ${FOLDER1} == "archive" ]; then
+    ${EXECUTABLE} -i initial_Acrylaten01.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_Acrylaten02.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_Acrylaten03.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_Acrylaten04.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_Acrylaten05.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_Acrylaten06.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_Acrylaten08.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_Acrylaten10.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_Acrylaten12.inp -var logtb 2.85;
+    #${EXECUTABLE} -i initial_Acrylaten14.inp -var logtb 2.85;
+    #${EXECUTABLE} -i initial_Acrylaten16.inp -var logtb 2.85;
+    #${EXECUTABLE} -i initial_Acrylaten18.inp -var logtb 2.85;
+fi;
+
+## Others: 7 system
+
+if [ ${FOLDER2} == "headnode" ]; then  
+    ${EXECUTABLE} -i initial_UAPS30.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_MartiniPS30.inp -var logtb 2.85;    
+    ${EXECUTABLE} -i initial_AAOTP.inp -var logtb 2.45;
+    ${EXECUTABLE} -i initial_AACu4Ag6.inp -var logtb /-0.55;
+    ${EXECUTABLE} -i initial_AASiO2.inp -var logtb /-0.55;
+    ${EXECUTABLE} -i initial_KGPolymer.inp -var logtb /-0.55;
+    ${EXECUTABLE} -i initial_BinLJ.inp -var logtb /-0.55;
+    #${EXECUTABLE} -i initial_BinLJ2D5000.inp -var logtb /-0.5;
+    #${EXECUTABLE} -i initial_BinLJ2D8000.inp -var logtb /-0.5;
+fi;
+
+## AA.PB: 3 systems
+
+if [ ${FOLDER1} == "archive" ]; then
+    ${EXECUTABLE} -i initial_AAPB10.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPB30.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPB50.inp -var logtb 2.85;
+    ${EXECUTABLE} -i initial_AAPB100.inp -var logtb 2.85;
+fi;
+
+done
