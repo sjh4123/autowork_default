@@ -2117,7 +2117,8 @@ void FitData::alglib_lsfit_form(const std::string& model,
     else if (model=="Generic_MYEGA")
     {
         if (is_use_FG) {
-            alglib::lsfitfit(state, Generic_MYEGA_func, Generic_MYEGA_grad);
+            //alglib::lsfitfit(state, Generic_MYEGA_func, Generic_MYEGA_grad);
+            alglib::lsfitfit(state, Generic_MYEGA_func);
         } else {
             alglib::lsfitfit(state, Generic_MYEGA_func);
         }
@@ -2125,7 +2126,8 @@ void FitData::alglib_lsfit_form(const std::string& model,
     else if (model=="Generic_COOP")
     {
         if (is_use_FG) {
-            alglib::lsfitfit(state, Generic_COOP_func, Generic_COOP_grad);
+            //alglib::lsfitfit(state, Generic_COOP_func, Generic_COOP_grad);
+            alglib::lsfitfit(state, Generic_COOP_func);
         } else {
             alglib::lsfitfit(state, Generic_COOP_func);
         }
@@ -2686,7 +2688,7 @@ void FitData::set_fitParams(const std::string& model)
         if (systemUnit=="real")
         {
             set_coeffs({       1e+2,  5.0, 3e+2, 1.0, 1e+17});
-            set_coeffs_scale({ 1e+3,  1.0, 1e+2, 1.0, 1e+17});
+            set_coeffs_scale({ 1e+2,  1.0, 1e+2, 1.0, 1e+17});
             set_coeffs_bndl({   0.0,  0.0,  0.0, 0.0, 1e+17});
             set_coeffs_bndu({   inf,  inf,  inf, inf, 1e+17});
         }
@@ -4445,7 +4447,8 @@ void FitData::Generic_MYEGA_func(const real_1d_array &c,
      func = log10(tau) = ln(tau)*log10(e)
      =========================================================================*/
     double tau0=c[0],a=c[1],Tg=c[2],n=c[3],taug=c[4],T=x[0];
-    func = (log(tau0)+log10(taug/tau0)*(Tg/T)*exp(a*(-1+(Tg/T))*pow(T/Tg,n)))*log10(exp(1));
+    //func = (log(tau0)+log10(taug/tau0)*(Tg/T)*exp(a*(-1+(Tg/T))*pow(T/Tg,n)))*log10(exp(1));
+    func = log10(tau0)+log10(taug/tau0)*(Tg/T)*exp(a*(-1+(Tg/T))*pow(T/Tg,n));
 }
 void FitData::Generic_MYEGA_grad(const real_1d_array &c,
                                  const real_1d_array &x,
@@ -4466,7 +4469,8 @@ void FitData::Generic_MYEGA_grad(const real_1d_array &c,
      grad|taug = ()*log10(e)
      =========================================================================*/
     double tau0=c[0],a=c[1],Tg=c[2],n=c[3],taug=c[4],T=x[0];
-    func = (log(tau0)+log10(taug/tau0)*(Tg/T)*exp(a*(-1+(Tg/T))*pow(T/Tg,n)))*log10(exp(1));
+    //func = (log(tau0)+log10(taug/tau0)*(Tg/T)*exp(a*(-1+(Tg/T))*pow(T/Tg,n)))*log10(exp(1));
+    func = log10(tau0)+log10(taug/tau0)*(Tg/T)*exp(a*(-1+(Tg/T))*pow(T/Tg,n));
     
     grad[0]= (pow(tau0,-1))*log10(exp(1));//tau0
     double A=log10(taug/tau0)*(Tg/T);
@@ -4496,7 +4500,8 @@ void FitData::Generic_COOP_func(const real_1d_array &c,
      func = log10(tau) = ln(tau)*log10(e)
      =========================================================================*/
     double tau0=c[0],a=c[1],Tg=c[2],n=c[3],taug=c[4],T=x[0];
-    func = (log(tau0)+log10(taug/tau0)*(Tg/T)*0.5*(1+exp(2*a*(-1+(Tg/T))*pow(T/Tg,n))))*log10(exp(1));
+    //func = (log(tau0)+log10(taug/tau0)*(Tg/T)*0.5*(1+exp(2*a*(-1+(Tg/T))*pow(T/Tg,n))))*log10(exp(1));
+    func = log10(tau0)+log10(taug/tau0)*(Tg/T)*0.5*(1+exp(2*a*(-1+(Tg/T))*pow(T/Tg,n)));
 }
 void FitData::Generic_COOP_grad(const real_1d_array &c,
                                 const real_1d_array &x,
@@ -4517,7 +4522,8 @@ void FitData::Generic_COOP_grad(const real_1d_array &c,
      grad|taug = ()*log10(e)
      =========================================================================*/
     double tau0=c[0],a=c[1],Tg=c[2],n=c[3],taug=c[4],T=x[0];
-    func = (log(tau0)+log10(taug/tau0)*(Tg/T)*0.5*(1+exp(2*a*(-1+(Tg/T))*pow(T/Tg,n))))*log10(exp(1));
+    //func = (log(tau0)+log10(taug/tau0)*(Tg/T)*0.5*(1+exp(2*a*(-1+(Tg/T))*pow(T/Tg,n))))*log10(exp(1));
+    func = log10(tau0)+log10(taug/tau0)*(Tg/T)*0.5*(1+exp(2*a*(-1+(Tg/T))*pow(T/Tg,n)));
     
     grad[0]= (pow(tau0,-1))*log10(exp(1));//tau0
     cout << "in FitData::Generic_COOP_grad(): please use F-mode\n";exit(1);
@@ -5110,12 +5116,12 @@ double FitData::calc_y_given_x(const real_1d_array& c,
     else if (model=="Generic_MYEGA") {
         // tau = tau0*log10(taug/tau0)*(Tg/T)*exp(a*(-1+Tg/T)*(T/Tg)^n)
         // param: {c[0]=tau0, c[1]=a, c[2]=Tg, c[3]=n, c[4]=taug}
-        return c[0]*log10(c[4]/c[0])*(c[2]/x)*exp(c[1]*(-1+(c[2]/x))*pow(x/c[2],c[3]));
+        return c[0]*pow(10,log10(c[4]/c[0])*(c[2]/x)*exp(c[1]*(-1+(c[2]/x))*pow(x/c[2],c[3])));
     }
     else if (model=="Generic_COOP") {
         // tau = tau0*log10(taug/tau0)*(Tg/T)*(1/2)*(1+exp(2*a*(-1+Tg/T)*(T/Tg)^n))
         // param: {c[0]=tau0, c[1]=a, c[2]=Tg, c[3]=n, c[4]=taug}
-        return c[0]*log10(c[4]/c[0])*(c[2]/x)*0.5*(1+exp(2*c[1]*(-1+(c[2]/x))*pow(x/c[2],c[3])));
+        return c[0]*pow(10,log10(c[4]/c[0])*(c[2]/x)*0.5*(1+exp(2*c[1]*(-1+(c[2]/x))*pow(x/c[2],c[3]))));
     }
     else if (model=="Generic_3p") {
         // tau = tau0*exp()
