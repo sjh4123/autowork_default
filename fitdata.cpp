@@ -2117,7 +2117,7 @@ void FitData::alglib_lsfit_form(const std::string& model,
     else if (model=="Generic_MYEGA")
     {
         if (is_use_FG) {
-            //alglib::lsfitfit(state, Generic_MYEGA_func, Generic_MYEGA_grad);
+            alglib::lsfitfit(state, Generic_MYEGA_func, Generic_MYEGA_grad);
             alglib::lsfitfit(state, Generic_MYEGA_func);
         } else {
             alglib::lsfitfit(state, Generic_MYEGA_func);
@@ -2126,7 +2126,7 @@ void FitData::alglib_lsfit_form(const std::string& model,
     else if (model=="Generic_COOP")
     {
         if (is_use_FG) {
-            //alglib::lsfitfit(state, Generic_COOP_func, Generic_COOP_grad);
+            alglib::lsfitfit(state, Generic_COOP_func, Generic_COOP_grad);
             alglib::lsfitfit(state, Generic_COOP_func);
         } else {
             alglib::lsfitfit(state, Generic_COOP_func);
@@ -2712,7 +2712,7 @@ void FitData::set_fitParams(const std::string& model)
         if (systemUnit=="real")
         {
             set_coeffs({       1e+2,  5.0, 3e+2, 1.0, 1e+17});
-            set_coeffs_scale({ 1e+3,  1.0, 1e+2, 1.0, 1e+17});
+            set_coeffs_scale({ 1e+2,  1.0, 1e+2, 1.0, 1e+17});
             set_coeffs_bndl({   0.0,  0.0,  0.0, 0.0, 1e+17});
             set_coeffs_bndu({   inf,  inf,  inf, inf, 1e+17});
         }
